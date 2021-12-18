@@ -46,7 +46,7 @@ functions:
     # If you're not on a paid plan with AWS you'll need to use 0 (i.e. 'free'), otherwise you'll get an RunLambdaEvConf error
     provisionedConcurrency: ${self:custom.provisionedConcurrency.${env:SLS_AWS_PLAN}, self:custom.provisionedConcurrency.free}
     memorySize: 256
-    timeout: 8
+    timeout: ${env:SLS_TURRET_SIGNER_ACCOUNT, 8}
     events:
       - httpApi:
           method: POST
