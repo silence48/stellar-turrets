@@ -16,9 +16,9 @@ There are two apps you need to deploy one in [`/serverless](#AWS-serverless) and
  - After you've signed up for cloudflare workers, go ahead and create a new service for your turret or two if you want to run on testnet and livenet.
  - Now back at your console there are a few prerequisites. First you should have NodeJS 16 or newer installed along with npm. You should have access to the commands `npm` and `npx` from your console. You will also need to have CloudFlare wrangler installed. 
 
-`npm install -g @cloudflare/wrangler` (you don't need a global install, but i find it convenient.)
+`npm install -g @cloudflare/wrangler` (deployment does not require a global install but these instructions use it.)
 
-run `wrangler login` or `wrangler config`
+run `wrangler login` and you will be able to login to wrangler from the command line
 
 For the next step you will need to have a number of values from your CloudFlare account. Some basic info on obtaining these values is below.
 
@@ -36,9 +36,8 @@ npm run init
    you'll need at hand in order to successfully finish the init step, to
    get them for the first time you may need to run the script multiple
    times. TODO: update init to be compatible with win32
- - Setup your `WRANGLER_ACCOUNT_ID` first, because you because
-   `wrangler-cli` requires it in order to create the `kv_namespaces`
-   below. 
+ - Setup your `WRANGLER_ACCOUNT_ID` first, because `wrangler-cli` 
+   requires it in order to create the `kv_namespaces` below.    
  - Create the key value store namespaces that go into the
    `kv_namespaces` on your CloudFlare project.
  - You can rerun the init script as many times as you find necessary, so
@@ -50,7 +49,7 @@ npm run init
 ** **
 | env variables | explanations: | Default:
 | -- | -- | -- |
-| `WRANGLER_ACCOUNT_ID` | For the `account_id` go to the workers page on [dash.cloudflare.com](https://dash.cloudflare.com) and copy your`Account ID`. | 
+| `WRANGLER_ACCOUNT_ID` | obtain this by running `wrangler whoami` after you run `wrangler login`. | |
 | [TESTNET_HORIZON_URL](#horizon-url)  | The testnet horizon to use.| `https://horizon-testnet.stellar.org` 
 | [TESTNET_TURRET_ADDRESS](#turret-address) | The testnet address of your turret. | |
 | [TESTNET_TURRET_FUNCTION_RUNNER_URL](#turret-run-url) | the endpoint for your function runner [turret-run-url](#turret-run-url) | null |
@@ -169,6 +168,7 @@ After you get it to build, you will be prompted for setting up your environmenta
 | SLS_TURRET_BASE_URL | The URL of your wrangler service | |
 | SLS_TURRET_SIGNER_ACCOUNT | The **public key** of [the secret used in deploying wrangler](#TURRET_SIGNER) | |
 | SLS_AWS_PLAN | Use paid or free aws plan | free |
+| SLS_TIMEOUT | The amount in seconds a function may run before timing out | 8 |
 
 This connection is what secures and protects access between the Cloudflare and Serverless APIs. Remember Cloudflare gets the **private key** and Serverless gets the **public key**.  
 
