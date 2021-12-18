@@ -27,12 +27,12 @@
 
 | Turret URL | Company | Individual | Contact |
 | :- | :- | :- | :- |
-| https://stellar-turrets-alpha.sdf-ecosystem.workers.dev | | [Tyler van der Hoeven](https://tyvdh.com/) | hi@tyvdh.com |
-| https://stellar-turrets-alpha.script3.workers.dev | [Script3](https://www.script3.io/) | | |
-| https://stellar-turrets-alpha.taskio.workers.dev | [Task.io](https://task.io/) | | |
-| https://stellar-turrets-alpha.soneso.workers.dev | [soneso](https://soneso.com/) | |hi@soneso.com|
+| https://stellar-turrets-public.sdf-ecosystem.workers.dev | | [Tyler van der Hoeven](https://tyvdh.com/) | hi@tyvdh.com |
+| https://stellar-turrets-public.script3.workers.dev | [Script3](https://www.script3.io/) | | |
+| https://stellar-turrets-public.taskio.workers.dev | [Task.io](https://task.io/) | | |
+| https://stellar-turrets-public.soneso.workers.dev | [soneso](https://soneso.com/) | |hi@soneso.com|
 | https://stellar-turrets.matusv.workers.dev | | [Matus Vojcik](https://github.com/matusv) | |
 | https://public.stellarturrets.org | | [Silence](https://github.com/silence48/) | Discord: Silence#8008 |
-| https://stellar-turrets-alpha.turretsdao.workers.dev | [Turrets DAO](https://turretsdao.org/)| |hi@turretsdao.org|
-\* alpha
+| https://stellar-turrets-public.turretsdao.workers.dev | [Turrets DAO](https://turretsdao.org/)| |hi@turretsdao.org|
+\* public
 
