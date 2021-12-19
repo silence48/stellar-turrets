@@ -56,6 +56,7 @@ npm run init
 | [TESTNET_WRANGLER_WORKER_NAME](#worker-name) | The name of your testnet service on CloudFlare Workers | |
 | [TESTNET_WRANGLER_META](#generating-kv-namespaces) | The kv store for your stellar.toml metadata file[see generating kv namespaces](#generating-kv-namespaces) | |
 | [TESTNET_WRANGLER_TX_FUNCTIONS](#generating-kv-namespaces)  |  [see generating kv namespaces](#generating-kv-namespaces) | |
+| `TESTNET_FUNCTION_TIMEOUT` | The amount of seconds the function can run, must be the same as what you set in serverless. | 8 |
 | [TESTNET_WRANGLER_XLM_FEE_MIN](#fees) | the minimum fee to run a function in xlm | 1 |
 | [TESTNET_WRANGLER_XLM_FEE_MAX](#fees) | | 10 |
 | [TESTNET_WRANGLER_UPLOAD_DIVISOR](#fees) | | 1000 |
@@ -67,6 +68,7 @@ npm run init
 | [PUBLIC_WRANGLER_META](#generating-kv-namespaces)  |[see generating kv namespaces](#generating-kv-namespaces) | |
 | [PUBLIC_WRANGLER_TX_FUNCTIONS](#generating-kv-namespaces)  | | |
 | [PUBLIC_WRANGLER_ALLOWED](#generating-kv-namespaces)  | The KV store for allowed  [see generating kv namespaces](#generating-kv-namespaces) | |
+| `PUBLIC_FUNCTION_TIMEOUT` | The amount of seconds the function can run, must be the same as what you set in serverless. | 8 |
 | [PUBLIC_WRANGLER_XLM_FEE_MIN](#fees) | the minimum fee to run a function in xlm | 1 |
 | [PUBLIC_WRANGLER_XLM_FEE_MAX](#fees) | | 10 |
 | [PUBLIC_WRANGLER_UPLOAD_DIVISOR](#fees) | | 1000 |
@@ -137,10 +139,9 @@ or
 $ wrangler publish
 ```
 - The `--new-class TxFees` you included in the first deploy was just an initializer argument for the `TxFees` Durable Object. Once you've successfully deployed do not include it again.
-```
-  ***
 
-## Serverless (AWS)
+
+# Serverless
 
  - Next we have the Serverless lambda endpoint which is hosted with AWS but deployed using the far more sane [serverless.com](https://serverless.com) cli tool.
  - If you haven't go create both an [AWS console account](https://www.amazon.com/) and a [serverless.com account](https://www.serverless.com/dashboard/). 
