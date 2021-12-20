@@ -8,7 +8,7 @@
     "deploy:public": "wrangler publish --env public",
     "init": "run-script-os",
     "init:darwin:linux": "export $(cat .env|tr -d \"[:blank:]\"|xargs) && envsubst < wrangler.toml.dist > wrangler.toml",
-    "init:win32": "echo 'running in windows please run in linux'",
+    "init:win32": "npx envsub --env-file .env wrangler.toml.dist wrangler.toml",
     "preinit": "[ \"${CI}\" = true ] && npx envdist -e || npx envdist"
   },
   "dependencies": {
@@ -31,6 +31,7 @@
     "babel-loader": "^8.2.2",
     "copy-webpack-plugin": "^9.0.1",
     "envdist": "^1.0.14",
+    "envsub": "4.0.7",
     "git-revision-webpack-plugin": "^5.0.0",
     "path": "^0.12.7",
     "terser-webpack-plugin": "^5.2.4",
