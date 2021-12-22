@@ -5,7 +5,7 @@ import { Keypair, Transaction, Networks } from 'stellar-base'
 import { processFeePayment } from '../@utils/stellar-sdk-utils'
 
 export default async ({ request, env }) => {
-  const { TX_FUNCTIONS, TURRET_ADDRESS, UPLOAD_DIVISOR, STELLAR_NETWORK, AUTH_REQUIRED, ALLOWED } = env
+  const { TX_FUNCTIONS, TURRET_ADDRESS, UPLOAD_DIVISOR, STELLAR_NETWORK, UPLOAD_AUTH_REQ, ALLOWED } = env
   const body = await request.formData()
 
   const txFunctionFields = body.get('txFunctionFields')
@@ -47,7 +47,7 @@ export default async ({ request, env }) => {
     }
   // todo: add a return to return the extra fee funds
   if (
-    AUTH_REQUIRED === 'true'
+    UPLOAD_AUTH_REQ === 'true'
     && await ALLOWED.get(txFunctionHash) === null
   ) throw `txFunction ${txFunctionHash} is not allowed on this turret`
 
