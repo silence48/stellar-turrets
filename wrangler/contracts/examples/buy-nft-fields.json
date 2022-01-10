@@ -1,0 +1,46 @@
+"fields": [
+    {
+    "name": "WalletAddr",
+    "type": "String",
+    "description": "Public Key of the wallet",
+    "rule": "Required"
+    },
+    {
+    "name": "nftCode",
+    "type": "string",
+    "description": "the code of the nft",
+    "rule": "Required"
+    },
+    {
+    "name": "nftIssuer",
+    "type": "String",
+    "description": "Public key of the NFT Issuing account",
+    "rule": "Required"
+    },
+    {
+    "name": "price",
+    "type": "string",
+    "description": "The price at which the nft is to be sold at",
+    "rule": "Required"
+    },
+    {
+    "name": "sellingCode",
+    "type": "string:",
+    "description": "The code of the asset being traded",
+    "rule": "Optional"
+    },
+    {
+    "name": "sellingIssuer",
+    "type": "string",
+    "description": "The public key of the issuing account for the asset being traded",
+    "rule": "Optional"
+    },
+    {
+    "name": "quantity",
+    "type": "integer",
+    "description": "The amount to be sold, must be a hole integer",
+    "rule": "Required"
+    }
+    ],
+    "signer": "GCF7HYBMJ7BX2F6ICR4GBV5SDCTNPOK3ZOX4QCCT4UUM2MT5JZGWKXMD"
+    }

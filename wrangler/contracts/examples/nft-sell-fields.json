@@ -1,0 +1,54 @@
+
+"fields": [
+    {
+    "name": "WalletAddr",
+    "type": "String",
+    "description": "Public Key of the wallet",
+    "rule": "Required"
+    },
+    {
+    "name": "nftCode",
+    "type": "string",
+    "description": "the code of the nft",
+    "rule": "Required"
+    },
+    {
+    "name": "nftIssuer",
+    "type": "String",
+    "description": "Public key of the NFT Issuing account",
+    "rule": "Required"
+    },
+    {
+    "name": "price",
+    "type": "string",
+    "description": "The price at which the nft is to be sold at",
+    "rule": "Required"
+    },
+    {
+    "name": "buyingCode",
+    "type": "string:",
+    "description": "The code of the asset being traded",
+    "rule": "Optional"
+    },
+    {
+    "name": "buyingIssuer",
+    "type": "string",
+    "description": "The public key of the issuing account for the asset being traded",
+    "rule": "Optional"
+    },
+    {
+    "name": "quantity",
+    "type": "integer",
+    "description": "The amount to be sold, must be a hole integer",
+    "rule": "Required"
+    },
+    {
+    "name": "offerID",
+    "type": "integer",
+    "description": "The ID of the sell order to be cancelled. If left blank it will create a new sell order",
+    "rule": "Optional"
+    }
+    ],
+    "signer": "GBQDL37UM77ND3PJZTY72ITUEBOLRVOFIMYU3QR2TJXRGIVVA3N5Y5ST"
+    }
+    

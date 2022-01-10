@@ -40,11 +40,10 @@ const getAccountId = async () => {
         
 		const acctrxp = /\s\|\s[A-Za-z0-9]{32}/g
 		const match = output.match(acctrxp)
-        
         const accountid = JSON.stringify(match).slice(5,37)
         console.log("your cf account id is: " + accountid)
 		writethenv = fs.promises.appendFile('.env', ('WRANGLER_ACCOUNT_ID=' + accountid + "\n"))
-		return accountid
+		return true
 	} catch (err) {
 		console.log("Account id not found. please obtain it manually, run wrangler whoami")
         return undefined
@@ -68,20 +67,31 @@ const getUserInput = async() => {
 	}
 }
 
-const makeKVPairs = async () => {
+const getinput = async () => {
 	try {
 		console.log('Fill in the requested output, if you do not have the KV namespaces ignore this for now as they will be created later')
 		const output = await execCmd('npx envdist')
-		//add rest
 		return true
 	} catch (err) {
 		console.log("failed to creat keypairs please proceed manually.")
 	}
 }
 
-const exitScript(){
-
+const setupenv = async () => {
+    try {
+        const authenticated = await isAuthenticate()
+        const accountid = await getAccountId()
+        const input = await getinput()
+        if(authenticated == true && accountid && input){
+            console.log(authenticated + " " + accountid + " " + input)
+            process.exit(1)
+        }
+        return false
+    } catch (err){
+        console.log('error failed please see the log')
+        process.exit(1)
+    }
+    
 }
-isAuthenticate()
-getAccountId()
-process.exit(1)
+
+setupenv()

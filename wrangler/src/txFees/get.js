@@ -1,37 +1,56 @@
-import { response } from 'cfw-easy-utils'
-import { authTxToken } from '../@utils/auth'
-import { handleResponse } from '../@utils/fetch'
+import { response } from "cfw-easy-utils";
+import { authTxToken } from "../@utils/auth";
+import { handleResponse } from "../@utils/fetch";
+import { TurretErrorHandler } from "../@utils/parse";
 
-export default async ({ request, env }) => {
-  const { TX_FEES, STELLAR_NETWORK } = env
+export default async function handleGetTxFeeBalance({ request, env }) {
+  try {
+    const { TX_FEES, STELLAR_NETWORK } = env;
 
-  const feeToken = request.headers.get('authorization')?.split(' ')?.[1]
+    const feeToken = request.headers.get("authorization")?.split(" ")?.[1];
 
-  const { 
-    hash: authedHash,
-    publicKey: authedPublicKey, 
-    data: authedContracts,
-    singleUse,
-  } = authTxToken(STELLAR_NETWORK, feeToken)
+    const {
+      hash: authedHash,
+      publicKey: authedPublicKey,
+      data: authedContracts,
+      singleUse,
+    } = authTxToken(STELLAR_NETWORK, feeToken);
 
-  const txFeesId = TX_FEES.idFromName(authedPublicKey)
-  const txFeesStub = TX_FEES.get(txFeesId)
+    const txFeesId = TX_FEES.idFromName(authedPublicKey);
+    const txFeesStub = TX_FEES.get(txFeesId);
 
-  const feeMetadata = await txFeesStub.fetch('/').then(handleResponse)
+    const feeMetadata = await txFeesStub.fetch("/").then(handleResponse);
 
-  if (!feeMetadata)
-    throw {status: 404, message: `Fee balance could not be found this turret` }
+    if (!feeMetadata)
+      throw {
+        status: 404,
+        message: `Fee balance could not be found this turret`,
+      };
 
-  return response.json({
-    hash: authedHash,
-    publicKey: authedPublicKey,
-    lastModifiedTime: feeMetadata.lastModifiedTime,
-    balance: feeMetadata.balance,
-    txFunctionHashes: authedContracts,
-    singleUse
-  }, {
-    headers: {
-      'Cache-Control': 'public, max-age=5',
-    }
-  })
+    return response.json(
+      {
+        hash: authedHash,
+        publicKey: authedPublicKey,
+        lastModifiedTime: feeMetadata.lastModifiedTime,
+        balance: feeMetadata.balance,
+        txFunctionHashes: authedContracts,
+        singleUse,
+      },
+      {
+        headers: {
+          "Cache-Control": "public, max-age=5",
+        },
+      }
+    );
+  } catch (err) {
+    return new TurretErrorHandler(
+      {
+        message:
+          "an error occurred while retrieving the feedata check the input and try again",
+        statuscode: 404,
+      },
+      404,
+      err
+    ).logCodeError(err);
+  }
 }

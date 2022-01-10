@@ -117,7 +117,10 @@ dist
 .pnp.*
 
 # Cloudflare Workers dist builds.
+ts-src
+ts-dist
 worker
-
+.vscode
 wrangler.toml
 stellar.toml
+wrangler.alpha.toml

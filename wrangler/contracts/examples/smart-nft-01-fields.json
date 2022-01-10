@@ -1,0 +1,28 @@
+"fields": [
+    {
+    "description": "Dig to mine pixels. Mint to finalize the NFT. Issue to send the NFT to the `source` account",
+    "name": "command",
+    "rule": "dig | mine | issue",
+    "type": "string"
+    },
+    {
+    "description": "Stellar address of the user",
+    "name": "source",
+    "rule": "Must be a valid Stellar address",
+    "type": "string"
+    },
+    {
+    "description": "Sent along with the `command: 'dig'` request to denote which pixels the source wishes to mine",
+    "name": "pixels",
+    "rule": "Must include >= 10 but <= 20 pixel asset tokens",
+    "type": "array"
+    },
+    {
+    "description": "Sent along with the `command: 'dig'`. Should be a list of txFunction signing keys for the Turrets this contract has been uploaded to",
+    "name": "signers",
+    "rule": "Must be a list of valid Stellar public keys",
+    "type": "array"
+    }
+    ],
+    "signer": "GDIHVCJ5LBZZNPQX24SFGL3PEFLPMQWFGN25VJNRKCHEFV3AFQRRDZSW"
+    }

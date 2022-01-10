@@ -1,0 +1,3566 @@
+{
+    "outcome": "ok",
+    "scriptName": null,
+    "exceptions": [],
+    "logs": [{
+        "message": ["we are constructing the txfees durable obj"],
+        "level": "log",
+        "timestamp": 1641611942810
+    }, {
+        "message": ["from the state,"],
+        "level": "log",
+        "timestamp": 1641611942810
+    }, {
+        "message": [{
+            "storage": {},
+            "id": {}
+        }],
+        "level": "log",
+        "timestamp": 1641611942810
+    }, {
+        "message": ["and the env", {
+            "HORIZON_URL": "https://horizon-testnet.stellar.org",
+            "META": {},
+            "RUN_DIVISOR": "1000000",
+            "STELLAR_NETWORK": "TESTNET",
+            "TURRET_ADDRESS": "GAWFB46XRA6GKIYL6CDX7PPI5XIF5KDC44HZLQRSSHTTA2J2ELMQEEWC",
+            "TURRET_RUN_URL": "https://lp2sscctpi.execute-api.us-east-1.amazonaws.com",
+            "TURRET_SIGNER": "SDNQAFFYAJJEOMZ2VFACXPGI6Y454PIV7IFNWJ4KKHAC2BE3WWQNAEDJ",
+            "TX_FEES": {},
+            "TX_FUNCTIONS": {},
+            "UPLOAD_DIVISOR": "1000",
+            "XLM_FEE_MAX": "10",
+            "XLM_FEE_MIN": "1"
+        }],
+        "level": "log",
+        "timestamp": 1641611942810
+    }, {
+        "message": [{
+            "HORIZON_URL": "https://horizon-testnet.stellar.org",
+            "META": {},
+            "RUN_DIVISOR": "1000000",
+            "STELLAR_NETWORK": "TESTNET",
+            "TURRET_ADDRESS": "GAWFB46XRA6GKIYL6CDX7PPI5XIF5KDC44HZLQRSSHTTA2J2ELMQEEWC",
+            "TURRET_RUN_URL": "https://lp2sscctpi.execute-api.us-east-1.amazonaws.com",
+            "TURRET_SIGNER": "SDNQAFFYAJJEOMZ2VFACXPGI6Y454PIV7IFNWJ4KKHAC2BE3WWQNAEDJ",
+            "TX_FEES": {},
+            "TX_FUNCTIONS": {},
+            "UPLOAD_DIVISOR": "1000",
+            "XLM_FEE_MAX": "10",
+            "XLM_FEE_MIN": "1"
+        }],
+        "level": "log",
+        "timestamp": 1641611942810
+    }, {
+        "message": [{}],
+        "level": "log",
+        "timestamp": 1641611942810
+    }, {
+        "message": ["that was the storage"],
+        "level": "log",
+        "timestamp": 1641611942810
+    }, {
+        "message": ["we done it boyz"],
+        "level": "log",
+        "timestamp": 1641611942810
+    }, {
+        "message": ["in the fetch now"],
+        "level": "log",
+        "timestamp": 1641611942810
+    }, {
+        "message": ["POST"],
+        "level": "log",
+        "timestamp": 1641611942810
+    }, {
+        "message": [null],
+        "level": "log",
+        "timestamp": 1641611942810
+    }, {
+        "message": ["storage"],
+        "level": "log",
+        "timestamp": 1641611942810
+    }, {
+        "message": ["this was a that ln 39"],
+        "level": "log",
+        "timestamp": 1641611942810
+    }, {
+        "message": ["META"],
+        "level": "log",
+        "timestamp": 1641611942810
+    }, {
+        "message": ["this was a that ln 39"],
+        "level": "log",
+        "timestamp": 1641611942810
+    }, {
+        "message": [{
+            "lastModifiedTime": 0,
+            "balance": 0
+        }],
+        "level": "log",
+        "timestamp": 1641611942956
+    }, {
+        "message": ["that was iv"],
+        "level": "log",
+        "timestamp": 1641611942956
+    }, {
+        "message": ["the value is set"],
+        "level": "log",
+        "timestamp": 1641611942956
+    }, {
+        "message": [{
+            "lastModifiedTime": 0,
+            "balance": 0
+        }],
+        "level": "log",
+        "timestamp": 1641611942956
+    }, {
+        "message": ["object"],
+        "level": "log",
+        "timestamp": 1641611942956
+    }, {
+        "message": ["type of 112"],
+        "level": "log",
+        "timestamp": 1641611942956
+    }, {
+        "message": ["9.0000000"],
+        "level": "log",
+        "timestamp": 1641611942956
+    }, {
+        "message": ["this.value in 120"],
+        "level": "log",
+        "timestamp": 1641611942956
+    }, {
+        "message": [{
+            "lastModifiedTime": "1641611942956",
+            "balance": "9.0000000"
+        }],
+        "level": "log",
+        "timestamp": 1641611942956
+    }, {
+        "message": [{
+            "lastModifiedTime": "1641611942956",
+            "balance": "9.0000000"
+        }],
+        "level": "log",
+        "timestamp": 1641611942956
+    }],
+    "eventTimestamp": 1641611942810,
+    "event": {
+        "request": {
+            "url": "https://fake-host/",
+            "method": "POST",
+            "headers": {
+                "content-type": "application/json"
+            }
+        }
+    }
+}
+
+
+
+{
+    "outcome": "ok",
+    "scriptName": null,
+    "exceptions": [],
+    "logs": [{
+        "message": ["START ENV"],
+        "level": "log",
+        "timestamp": 1641611938133
+    }, {
+        "message": [{
+            "HORIZON_URL": "https://horizon-testnet.stellar.org",
+            "META": {},
+            "RUN_DIVISOR": "1000000",
+            "STELLAR_NETWORK": "TESTNET",
+            "TURRET_ADDRESS": "GAWFB46XRA6GKIYL6CDX7PPI5XIF5KDC44HZLQRSSHTTA2J2ELMQEEWC",
+            "TURRET_RUN_URL": "https://lp2sscctpi.execute-api.us-east-1.amazonaws.com",
+            "TURRET_SIGNER": "SDNQAFFYAJJEOMZ2VFACXPGI6Y454PIV7IFNWJ4KKHAC2BE3WWQNAEDJ",
+            "TX_FEES": {},
+            "TX_FUNCTIONS": {},
+            "UPLOAD_DIVISOR": "1000",
+            "XLM_FEE_MAX": "10",
+            "XLM_FEE_MIN": "1"
+        }],
+        "level": "log",
+        "timestamp": 1641611938133
+    }, {
+        "message": ["END ENV, start request line 55 index.js"],
+        "level": "log",
+        "timestamp": 1641611938133
+    }, {
+        "message": [{
+            "cf": {
+                "clientTcpRtt": 1,
+                "longitude": "-77.49030",
+                "latitude": "39.04690",
+                "tlsCipher": "AEAD-AES256-GCM-SHA384",
+                "continent": "NA",
+                "asn": 14618,
+                "clientAcceptEncoding": "gzip, deflate, br",
+                "country": "US",
+                "tlsClientAuth": {
+                    "certIssuerDNLegacy": "",
+                    "certIssuerSKI": "",
+                    "certSubjectDNRFC2253": "",
+                    "certSubjectDNLegacy": "",
+                    "certFingerprintSHA256": "",
+                    "certNotBefore": "",
+                    "certSKI": "",
+                    "certSerial": "",
+                    "certIssuerDN": "",
+                    "certVerified": "NONE",
+                    "certNotAfter": "",
+                    "certSubjectDN": "",
+                    "certPresented": "0",
+                    "certRevoked": "0",
+                    "certIssuerSerial": "",
+                    "certIssuerDNRFC2253": "",
+                    "certFingerprintSHA1": ""
+                },
+                "tlsExportedAuthenticator": {
+                    "clientFinished": "09ac5f242248ca8fa205af6f069d7403b6922b401587d543e61e748c506beb5de83ef97f1374a62a08a186530137773a",
+                    "clientHandshake": "70bfffa527ff4d135dc122595cf6b08db1c42e1392323408b0fdc9d56d5a220f0e0ac9bda27ce8cee63f0e5e170984ea",
+                    "serverHandshake": "cde9934fdada5f1a87aae28fa74071e8f94e2c62e65bf34c79d8065d7a1c30c52992a41e5741490912c9cc9090d64032",
+                    "serverFinished": "d2f38ebac1444403953f886bd6486fb466f5d7c6dbb65dc5a6e2274192d3aa50fdd55feb5c7e0993e0c1f9736271fa30"
+                },
+                "tlsVersion": "TLSv1.3",
+                "colo": "IAD",
+                "timezone": "America/New_York",
+                "city": "Ashburn",
+                "edgeRequestKeepAliveStatus": 1,
+                "requestPriority": "",
+                "httpProtocol": "HTTP/1.1",
+                "region": "Virginia",
+                "regionCode": "VA",
+                "asOrganization": "Amazon.com",
+                "metroCode": "511",
+                "postalCode": "20149"
+            },
+            "signal": {
+                "aborted": false
+            },
+            "fetcher": {},
+            "redirect": "manual",
+            "headers": {},
+            "url": "https://testnet-turret-alpha1.s3x.workers.dev/tx-fees/GA4UPH2WH2H54FDN6I63264ADNSARFU6F6ADSB7XZKPWQOTYBA4EDGMZ",
+            "method": "POST",
+            "bodyUsed": false,
+            "body": {
+                "locked": false
+            }
+        }],
+        "level": "log",
+        "timestamp": 1641611938133
+    }, {
+        "message": ["END REQUEST"],
+        "level": "log",
+        "timestamp": 1641611938133
+    }, {
+        "message": [{}],
+        "level": "log",
+        "timestamp": 1641611938133
+    }, {
+        "message": ["END CTX"],
+        "level": "log",
+        "timestamp": 1641611938133
+    }, {
+        "message": ["The router match line 90 on index"],
+        "level": "log",
+        "timestamp": 1641611938133
+    }, {
+        "message": [{
+            "method": "POST",
+            "path": "/tx-fees/:publicKey",
+            "keys": [{
+                "name": "publicKey",
+                "prefix": "/",
+                "suffix": "",
+                "pattern": "[^\\/#\\?]+?",
+                "modifier": ""
+            }],
+            "options": {},
+            "regexp": {},
+            "matches": ["/tx-fees/GA4UPH2WH2H54FDN6I63264ADNSARFU6F6ADSB7XZKPWQOTYBA4EDGMZ", "GA4UPH2WH2H54FDN6I63264ADNSARFU6F6ADSB7XZKPWQOTYBA4EDGMZ"],
+            "params": {
+                "publicKey": "GA4UPH2WH2H54FDN6I63264ADNSARFU6F6ADSB7XZKPWQOTYBA4EDGMZ"
+            }
+        }],
+        "level": "log",
+        "timestamp": 1641611938133
+    }, {
+        "message": ["The router match end"],
+        "level": "log",
+        "timestamp": 1641611938133
+    }, {
+        "message": ["The router response on line 93"],
+        "level": "log",
+        "timestamp": 1641611942967
+    }, {
+        "message": [{
+            "webSocket": null,
+            "url": "",
+            "redirected": false,
+            "ok": true,
+            "headers": {},
+            "statusText": "OK",
+            "status": 200,
+            "bodyUsed": false,
+            "body": {
+                "locked": false
+            }
+        }],
+        "level": "log",
+        "timestamp": 1641611942967
+    }, {
+        "message": ["continues to the if method get"],
+        "level": "log",
+        "timestamp": 1641611942967
+    }, {
+        "message": ["heres the response dummy"],
+        "level": "log",
+        "timestamp": 1641611942967
+    }, {
+        "message": ["{\"webSocket\":null,\"url\":\"\",\"redirected\":false,\"ok\":true,\"headers\":{},\"statusText\":\"OK\",\"status\":200,\"bodyUsed\":false,\"body\":{\"locked\":false}}"],
+        "level": "log",
+        "timestamp": 1641611942967
+    }, {
+        "message": [{
+            "webSocket": null,
+            "url": "",
+            "redirected": false,
+            "ok": true,
+            "headers": {},
+            "statusText": "OK",
+            "status": 200,
+            "bodyUsed": false,
+            "body": {
+                "locked": false
+            }
+        }],
+        "level": "log",
+        "timestamp": 1641611942967
+    }],
+    "eventTimestamp": 1641611938133,
+    "event": {
+        "request": {
+            "url": "https://testnet-turret-alpha1.s3x.workers.dev/tx-fees/GA4UPH2WH2H54FDN6I63264ADNSARFU6F6ADSB7XZKPWQOTYBA4EDGMZ",
+            "method": "POST",
+            "headers": {
+                "accept": "application/json",
+                "accept-encoding": "gzip",
+                "accept-language": "en-US,en;q=0.9",
+                "cf-connecting-ip": "54.208.143.244",
+                "cf-ipcountry": "US",
+                "cf-ray": "6ca248148bee5812",
+                "cf-visitor": "{\"scheme\":\"https\"}",
+                "connection": "Keep-Alive",
+                "content-length": "313",
+                "content-type": "application/json",
+                "dnt": "1",
+                "host": "testnet-turret-alpha1.s3x.workers.dev",
+                "referer": "https://app.swaggerhub.com/apis/StellarTurrets/prototype/1.0.0",
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"96\", \"Google Chrome\";v=\"96\"",
+                "sec-ch-ua-mobile": "?0",
+                "sec-ch-ua-platform": "\"Windows\"",
+                "sec-fetch-dest": "empty",
+                "sec-fetch-mode": "cors",
+                "sec-fetch-site": "same-origin",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36",
+                "x-amzn-trace-id": "Root=1-61d902a1-70a745f62cd0c0f00a902e87",
+                "x-forwarded-for": "72.241.33.170, 10.110.23.39",
+                "x-forwarded-port": "443",
+                "x-forwarded-proto": "https",
+                "x-real-ip": "54.208.143.244",
+                "x-swaggerhub-cookie": ""
+            },
+            "cf": {
+                "clientTcpRtt": 1,
+                "longitude": "-77.49030",
+                "latitude": "39.04690",
+                "tlsCipher": "AEAD-AES256-GCM-SHA384",
+                "continent": "NA",
+                "asn": 14618,
+                "clientAcceptEncoding": "gzip, deflate, br",
+                "country": "US",
+                "tlsClientAuth": {
+                    "certIssuerDNLegacy": "",
+                    "certIssuerSKI": "",
+                    "certSubjectDNRFC2253": "",
+                    "certSubjectDNLegacy": "",
+                    "certFingerprintSHA256": "",
+                    "certNotBefore": "",
+                    "certSKI": "",
+                    "certSerial": "",
+                    "certIssuerDN": "",
+                    "certVerified": "NONE",
+                    "certNotAfter": "",
+                    "certSubjectDN": "",
+                    "certPresented": "0",
+                    "certRevoked": "0",
+                    "certIssuerSerial": "",
+                    "certIssuerDNRFC2253": "",
+                    "certFingerprintSHA1": ""
+                },
+                "tlsExportedAuthenticator": {
+                    "clientFinished": "09ac5f242248ca8fa205af6f069d7403b6922b401587d543e61e748c506beb5de83ef97f1374a62a08a186530137773a",
+                    "clientHandshake": "70bfffa527ff4d135dc122595cf6b08db1c42e1392323408b0fdc9d56d5a220f0e0ac9bda27ce8cee63f0e5e170984ea",
+                    "serverHandshake": "cde9934fdada5f1a87aae28fa74071e8f94e2c62e65bf34c79d8065d7a1c30c52992a41e5741490912c9cc9090d64032",
+                    "serverFinished": "d2f38ebac1444403953f886bd6486fb466f5d7c6dbb65dc5a6e2274192d3aa50fdd55feb5c7e0993e0c1f9736271fa30"
+                },
+                "tlsVersion": "TLSv1.3",
+                "colo": "IAD",
+                "timezone": "America/New_York",
+                "city": "Ashburn",
+                "edgeRequestKeepAliveStatus": 1,
+                "requestPriority": "",
+                "httpProtocol": "HTTP/1.1",
+                "region": "Virginia",
+                "regionCode": "VA",
+                "asOrganization": "Amazon.com",
+                "metroCode": "511",
+                "postalCode": "20149"
+            }
+        }
+    }
+} {
+    "outcome": "ok",
+    "scriptName": null,
+    "exceptions": [],
+    "logs": [{
+        "message": ["we are constructing the txfees durable obj"],
+        "level": "log",
+        "timestamp": 1641611942810
+    }, {
+        "message": ["from the state,"],
+        "level": "log",
+        "timestamp": 1641611942810
+    }, {
+        "message": [{
+            "storage": {},
+            "id": {}
+        }],
+        "level": "log",
+        "timestamp": 1641611942810
+    }, {
+        "message": ["and the env", {
+            "HORIZON_URL": "https://horizon-testnet.stellar.org",
+            "META": {},
+            "RUN_DIVISOR": "1000000",
+            "STELLAR_NETWORK": "TESTNET",
+            "TURRET_ADDRESS": "GAWFB46XRA6GKIYL6CDX7PPI5XIF5KDC44HZLQRSSHTTA2J2ELMQEEWC",
+            "TURRET_RUN_URL": "https://lp2sscctpi.execute-api.us-east-1.amazonaws.com",
+            "TURRET_SIGNER": "SDNQAFFYAJJEOMZ2VFACXPGI6Y454PIV7IFNWJ4KKHAC2BE3WWQNAEDJ",
+            "TX_FEES": {},
+            "TX_FUNCTIONS": {},
+            "UPLOAD_DIVISOR": "1000",
+            "XLM_FEE_MAX": "10",
+            "XLM_FEE_MIN": "1"
+        }],
+        "level": "log",
+        "timestamp": 1641611942810
+    }, {
+        "message": [{
+            "HORIZON_URL": "https://horizon-testnet.stellar.org",
+            "META": {},
+            "RUN_DIVISOR": "1000000",
+            "STELLAR_NETWORK": "TESTNET",
+            "TURRET_ADDRESS": "GAWFB46XRA6GKIYL6CDX7PPI5XIF5KDC44HZLQRSSHTTA2J2ELMQEEWC",
+            "TURRET_RUN_URL": "https://lp2sscctpi.execute-api.us-east-1.amazonaws.com",
+            "TURRET_SIGNER": "SDNQAFFYAJJEOMZ2VFACXPGI6Y454PIV7IFNWJ4KKHAC2BE3WWQNAEDJ",
+            "TX_FEES": {},
+            "TX_FUNCTIONS": {},
+            "UPLOAD_DIVISOR": "1000",
+            "XLM_FEE_MAX": "10",
+            "XLM_FEE_MIN": "1"
+        }],
+        "level": "log",
+        "timestamp": 1641611942810
+    }, {
+        "message": [{}],
+        "level": "log",
+        "timestamp": 1641611942810
+    }, {
+        "message": ["that was the storage"],
+        "level": "log",
+        "timestamp": 1641611942810
+    }, {
+        "message": ["we done it boyz"],
+        "level": "log",
+        "timestamp": 1641611942810
+    }, {
+        "message": ["in the fetch now"],
+        "level": "log",
+        "timestamp": 1641611942810
+    }, {
+        "message": ["POST"],
+        "level": "log",
+        "timestamp": 1641611942810
+    }, {
+        "message": [null],
+        "level": "log",
+        "timestamp": 1641611942810
+    }, {
+        "message": ["storage"],
+        "level": "log",
+        "timestamp": 1641611942810
+    }, {
+        "message": ["this was a that ln 39"],
+        "level": "log",
+        "timestamp": 1641611942810
+    }, {
+        "message": ["META"],
+        "level": "log",
+        "timestamp": 1641611942810
+    }, {
+        "message": ["this was a that ln 39"],
+        "level": "log",
+        "timestamp": 1641611942810
+    }, {
+        "message": [{
+            "lastModifiedTime": 0,
+            "balance": 0
+        }],
+        "level": "log",
+        "timestamp": 1641611942956
+    }, {
+        "message": ["that was iv"],
+        "level": "log",
+        "timestamp": 1641611942956
+    }, {
+        "message": ["the value is set"],
+        "level": "log",
+        "timestamp": 1641611942956
+    }, {
+        "message": [{
+            "lastModifiedTime": 0,
+            "balance": 0
+        }],
+        "level": "log",
+        "timestamp": 1641611942956
+    }, {
+        "message": ["object"],
+        "level": "log",
+        "timestamp": 1641611942956
+    }, {
+        "message": ["type of 112"],
+        "level": "log",
+        "timestamp": 1641611942956
+    }, {
+        "message": ["9.0000000"],
+        "level": "log",
+        "timestamp": 1641611942956
+    }, {
+        "message": ["this.value in 120"],
+        "level": "log",
+        "timestamp": 1641611942956
+    }, {
+        "message": [{
+            "lastModifiedTime": "1641611942956",
+            "balance": "9.0000000"
+        }],
+        "level": "log",
+        "timestamp": 1641611942956
+    }, {
+        "message": [{
+            "lastModifiedTime": "1641611942956",
+            "balance": "9.0000000"
+        }],
+        "level": "log",
+        "timestamp": 1641611942956
+    }],
+    "eventTimestamp": 1641611942810,
+    "event": {
+        "request": {
+            "url": "https://fake-host/",
+            "method": "POST",
+            "headers": {
+                "content-type": "application/json"
+            }
+        }
+    }
+}
+
+
+
+
+
+
+{
+    "outcome": "ok",
+    "scriptName": null,
+    "exceptions": [],
+    "logs": [{
+        "message": ["START ENV"],
+        "level": "log",
+        "timestamp": 1641627919725
+    }, {
+        "message": [{
+            "HORIZON_URL": "https://horizon-testnet.stellar.org",
+            "META": {},
+            "RUN_DIVISOR": "1000000",
+            "STELLAR_NETWORK": "TESTNET",
+            "TURRET_ADDRESS": "GAWFB46XRA6GKIYL6CDX7PPI5XIF5KDC44HZLQRSSHTTA2J2ELMQEEWC",
+            "TURRET_RUN_URL": "https://lp2sscctpi.execute-api.us-east-1.amazonaws.com",
+            "TURRET_SIGNER": "SDNQAFFYAJJEOMZ2VFACXPGI6Y454PIV7IFNWJ4KKHAC2BE3WWQNAEDJ",
+            "TX_FEES": {},
+            "TX_FUNCTIONS": {},
+            "UPLOAD_DIVISOR": "1000",
+            "XLM_FEE_MAX": "10",
+            "XLM_FEE_MIN": "1"
+        }],
+        "level": "log",
+        "timestamp": 1641627919725
+    }, {
+        "message": ["END ENV, start request line 55 index.js"],
+        "level": "log",
+        "timestamp": 1641627919725
+    }, {
+        "message": [{
+            "cf": {
+                "longitude": "-83.64260",
+                "latitude": "41.70520",
+                "tlsCipher": "AEAD-AES128-GCM-SHA256",
+                "continent": "NA",
+                "asn": 13490,
+                "clientAcceptEncoding": "gzip, deflate, br",
+                "country": "US",
+                "tlsClientAuth": {
+                    "certIssuerDNLegacy": "",
+                    "certIssuerSKI": "",
+                    "certSubjectDNRFC2253": "",
+                    "certSubjectDNLegacy": "",
+                    "certFingerprintSHA256": "",
+                    "certNotBefore": "",
+                    "certSKI": "",
+                    "certSerial": "",
+                    "certIssuerDN": "",
+                    "certVerified": "NONE",
+                    "certNotAfter": "",
+                    "certSubjectDN": "",
+                    "certPresented": "0",
+                    "certRevoked": "0",
+                    "certIssuerSerial": "",
+                    "certIssuerDNRFC2253": "",
+                    "certFingerprintSHA1": ""
+                },
+                "tlsExportedAuthenticator": {
+                    "clientFinished": "ce850b750e5238a02ec3a64d251777f2502769893fb484ba2c0630212c1871d8",
+                    "clientHandshake": "5d5515f257b0b3cb3ff49261db41e46b2c3e667171921388145c6a699a101738",
+                    "serverHandshake": "ca47bb6fb63b97a213f3c9af2da520bbb67438119d2556c6e1704ec38d7bcee7",
+                    "serverFinished": "3ccc3cbf6bbb51b9982dc83ae720acf264974b5f80009f5e2f3dea475629dfc3"
+                },
+                "tlsVersion": "TLSv1.3",
+                "colo": "ORD",
+                "timezone": "America/New_York",
+                "city": "Toledo",
+                "edgeRequestKeepAliveStatus": 1,
+                "requestPriority": "",
+                "httpProtocol": "HTTP/3",
+                "region": "Ohio",
+                "regionCode": "OH",
+                "asOrganization": "Buckeye Cablevision",
+                "metroCode": "547",
+                "postalCode": "43623"
+            },
+            "signal": {
+                "aborted": false
+            },
+            "fetcher": {},
+            "redirect": "manual",
+            "headers": {},
+            "url": "https://testnet-turret-alpha1.s3x.workers.dev/jsontest",
+            "method": "GET",
+            "bodyUsed": false,
+            "body": null
+        }],
+        "level": "log",
+        "timestamp": 1641627919725
+    }, {
+        "message": ["END REQUEST"],
+        "level": "log",
+        "timestamp": 1641627919725
+    }, {
+        "message": [{}],
+        "level": "log",
+        "timestamp": 1641627919725
+    }, {
+        "message": ["END CTX"],
+        "level": "log",
+        "timestamp": 1641627919725
+    }, {
+        "message": ["The router match line 90 on index"],
+        "level": "log",
+        "timestamp": 1641627919725
+    }, {
+        "message": [null],
+        "level": "log",
+        "timestamp": 1641627919725
+    }, {
+        "message": ["The router match end"],
+        "level": "log",
+        "timestamp": 1641627919725
+    }],
+    "eventTimestamp": 1641627919725,
+    "event": {
+        "request": {
+            "url": "https://testnet-turret-alpha1.s3x.workers.dev/jsontest",
+            "method": "GET",
+            "headers": {
+                "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
+                "accept-encoding": "gzip",
+                "accept-language": "en-US,en;q=0.9",
+                "cf-connecting-ip": "72.241.33.170",
+                "cf-ipcountry": "US",
+                "cf-ray": "6ca3ce424c7c2d8e",
+                "cf-visitor": "{\"scheme\":\"https\"}",
+                "connection": "Keep-Alive",
+                "dnt": "1",
+                "host": "testnet-turret-alpha1.s3x.workers.dev",
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"96\", \"Google Chrome\";v=\"96\"",
+                "sec-ch-ua-mobile": "?0",
+                "sec-ch-ua-platform": "\"Windows\"",
+                "sec-fetch-dest": "document",
+                "sec-fetch-mode": "navigate",
+                "sec-fetch-site": "none",
+                "sec-fetch-user": "?1",
+                "upgrade-insecure-requests": "1",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36",
+                "x-forwarded-proto": "https",
+                "x-real-ip": "72.241.33.170"
+            },
+            "cf": {
+                "longitude": "-83.64260",
+                "latitude": "41.70520",
+                "tlsCipher": "AEAD-AES128-GCM-SHA256",
+                "continent": "NA",
+                "asn": 13490,
+                "clientAcceptEncoding": "gzip, deflate, br",
+                "country": "US",
+                "tlsClientAuth": {
+                    "certIssuerDNLegacy": "",
+                    "certIssuerSKI": "",
+                    "certSubjectDNRFC2253": "",
+                    "certSubjectDNLegacy": "",
+                    "certFingerprintSHA256": "",
+                    "certNotBefore": "",
+                    "certSKI": "",
+                    "certSerial": "",
+                    "certIssuerDN": "",
+                    "certVerified": "NONE",
+                    "certNotAfter": "",
+                    "certSubjectDN": "",
+                    "certPresented": "0",
+                    "certRevoked": "0",
+                    "certIssuerSerial": "",
+                    "certIssuerDNRFC2253": "",
+                    "certFingerprintSHA1": ""
+                },
+                "tlsExportedAuthenticator": {
+                    "clientFinished": "ce850b750e5238a02ec3a64d251777f2502769893fb484ba2c0630212c1871d8",
+                    "clientHandshake": "5d5515f257b0b3cb3ff49261db41e46b2c3e667171921388145c6a699a101738",
+                    "serverHandshake": "ca47bb6fb63b97a213f3c9af2da520bbb67438119d2556c6e1704ec38d7bcee7",
+                    "serverFinished": "3ccc3cbf6bbb51b9982dc83ae720acf264974b5f80009f5e2f3dea475629dfc3"
+                },
+                "tlsVersion": "TLSv1.3",
+                "colo": "ORD",
+                "timezone": "America/New_York",
+                "city": "Toledo",
+                "edgeRequestKeepAliveStatus": 1,
+                "requestPriority": "",
+                "httpProtocol": "HTTP/3",
+                "region": "Ohio",
+                "regionCode": "OH",
+                "asOrganization": "Buckeye Cablevision",
+                "metroCode": "547",
+                "postalCode": "43623"
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+    "outcome": "ok",
+    "scriptName": null,
+    "exceptions": [],
+    "logs": [{
+        "message": ["we are constructing the txfees durable obj"],
+        "level": "log",
+        "timestamp": 1641675469540
+    }, {
+        "message": ["from the state,"],
+        "level": "log",
+        "timestamp": 1641675469540
+    }, {
+        "message": [{
+            "storage": {},
+            "id": {}
+        }],
+        "level": "log",
+        "timestamp": 1641675469540
+    }, {
+        "message": ["and the env", {
+            "HORIZON_URL": "https://horizon-testnet.stellar.org",
+            "META": {},
+            "RUN_DIVISOR": "1000000",
+            "STELLAR_NETWORK": "TESTNET",
+            "TURRET_ADDRESS": "GAWFB46XRA6GKIYL6CDX7PPI5XIF5KDC44HZLQRSSHTTA2J2ELMQEEWC",
+            "TURRET_RUN_URL": "https://lp2sscctpi.execute-api.us-east-1.amazonaws.com",
+            "TURRET_SIGNER": "SDNQAFFYAJJEOMZ2VFACXPGI6Y454PIV7IFNWJ4KKHAC2BE3WWQNAEDJ",
+            "TX_FEES": {},
+            "TX_FUNCTIONS": {},
+            "UPLOAD_DIVISOR": "1000",
+            "XLM_FEE_MAX": "10",
+            "XLM_FEE_MIN": "1"
+        }],
+        "level": "log",
+        "timestamp": 1641675469540
+    }, {
+        "message": [{
+            "HORIZON_URL": "https://horizon-testnet.stellar.org",
+            "META": {},
+            "RUN_DIVISOR": "1000000",
+            "STELLAR_NETWORK": "TESTNET",
+            "TURRET_ADDRESS": "GAWFB46XRA6GKIYL6CDX7PPI5XIF5KDC44HZLQRSSHTTA2J2ELMQEEWC",
+            "TURRET_RUN_URL": "https://lp2sscctpi.execute-api.us-east-1.amazonaws.com",
+            "TURRET_SIGNER": "SDNQAFFYAJJEOMZ2VFACXPGI6Y454PIV7IFNWJ4KKHAC2BE3WWQNAEDJ",
+            "TX_FEES": {},
+            "TX_FUNCTIONS": {},
+            "UPLOAD_DIVISOR": "1000",
+            "XLM_FEE_MAX": "10",
+            "XLM_FEE_MIN": "1"
+        }],
+        "level": "log",
+        "timestamp": 1641675469540
+    }, {
+        "message": [{}],
+        "level": "log",
+        "timestamp": 1641675469540
+    }, {
+        "message": ["that was the storage"],
+        "level": "log",
+        "timestamp": 1641675469540
+    }, {
+        "message": ["we done it boyz"],
+        "level": "log",
+        "timestamp": 1641675469540
+    }, {
+        "message": ["in the fetch now"],
+        "level": "log",
+        "timestamp": 1641675469540
+    }, {
+        "message": ["POST"],
+        "level": "log",
+        "timestamp": 1641675469540
+    }, {
+        "message": [null],
+        "level": "log",
+        "timestamp": 1641675469540
+    }, {
+        "message": ["storage"],
+        "level": "log",
+        "timestamp": 1641675469540
+    }, {
+        "message": ["this was a that ln 39"],
+        "level": "log",
+        "timestamp": 1641675469540
+    }, {
+        "message": ["META"],
+        "level": "log",
+        "timestamp": 1641675469540
+    }, {
+        "message": ["this was a that ln 39"],
+        "level": "log",
+        "timestamp": 1641675469540
+    }, {
+        "message": [{
+            "lastModifiedTime": "1641675420714",
+            "balance": "18.0000000"
+        }],
+        "level": "log",
+        "timestamp": 1641675469543
+    }, {
+        "message": ["that was iv"],
+        "level": "log",
+        "timestamp": 1641675469543
+    }, {
+        "message": ["the value is set"],
+        "level": "log",
+        "timestamp": 1641675469543
+    }, {
+        "message": [{
+            "lastModifiedTime": "1641675420714",
+            "balance": "18.0000000"
+        }],
+        "level": "log",
+        "timestamp": 1641675469543
+    }, {
+        "message": ["the body on 107"],
+        "level": "log",
+        "timestamp": 1641675469543
+    }, {
+        "message": [{
+            "plus": "9.0000000"
+        }],
+        "level": "log",
+        "timestamp": 1641675469543
+    }, {
+        "message": [{
+            "plus": "9.0000000"
+        }],
+        "level": "log",
+        "timestamp": 1641675469543
+    }, {
+        "message": ["type of 112"],
+        "level": "log",
+        "timestamp": 1641675469543
+    }, {
+        "message": ["27.0000000"],
+        "level": "log",
+        "timestamp": 1641675469543
+    }, {
+        "message": ["this.value in 120"],
+        "level": "log",
+        "timestamp": 1641675469543
+    }, {
+        "message": [{
+            "lastModifiedTime": "1641675469543",
+            "balance": "27.0000000"
+        }],
+        "level": "log",
+        "timestamp": 1641675469543
+    }, {
+        "message": [{
+            "lastModifiedTime": "1641675469543",
+            "balance": "27.0000000"
+        }],
+        "level": "log",
+        "timestamp": 1641675469543
+    }],
+    "eventTimestamp": 1641675469540,
+    "event": {
+        "request": {
+            "url": "https://fake-host/",
+            "method": "POST",
+            "headers": {
+                "content-type": "application/json"
+            }
+        }
+    }
+} {
+    "outcome": "ok",
+    "scriptName": null,
+    "exceptions": [],
+    "logs": [{
+        "message": ["START ENV"],
+        "level": "log",
+        "timestamp": 1641675463619
+    }, {
+        "message": [{
+            "HORIZON_URL": "https://horizon-testnet.stellar.org",
+            "META": {},
+            "RUN_DIVISOR": "1000000",
+            "STELLAR_NETWORK": "TESTNET",
+            "TURRET_ADDRESS": "GAWFB46XRA6GKIYL6CDX7PPI5XIF5KDC44HZLQRSSHTTA2J2ELMQEEWC",
+            "TURRET_RUN_URL": "https://lp2sscctpi.execute-api.us-east-1.amazonaws.com",
+            "TURRET_SIGNER": "SDNQAFFYAJJEOMZ2VFACXPGI6Y454PIV7IFNWJ4KKHAC2BE3WWQNAEDJ",
+            "TX_FEES": {},
+            "TX_FUNCTIONS": {},
+            "UPLOAD_DIVISOR": "1000",
+            "XLM_FEE_MAX": "10",
+            "XLM_FEE_MIN": "1"
+        }],
+        "level": "log",
+        "timestamp": 1641675463619
+    }, {
+        "message": ["END ENV, start request line 55 index.js"],
+        "level": "log",
+        "timestamp": 1641675463619
+    }, {
+        "message": [{
+            "cf": {
+                "clientTcpRtt": 1,
+                "longitude": "-77.49030",
+                "latitude": "39.04690",
+                "tlsCipher": "AEAD-AES256-GCM-SHA384",
+                "continent": "NA",
+                "asn": 14618,
+                "clientAcceptEncoding": "gzip, deflate, br",
+                "country": "US",
+                "tlsClientAuth": {
+                    "certIssuerDNLegacy": "",
+                    "certIssuerSKI": "",
+                    "certSubjectDNRFC2253": "",
+                    "certSubjectDNLegacy": "",
+                    "certFingerprintSHA256": "",
+                    "certNotBefore": "",
+                    "certSKI": "",
+                    "certSerial": "",
+                    "certIssuerDN": "",
+                    "certVerified": "NONE",
+                    "certNotAfter": "",
+                    "certSubjectDN": "",
+                    "certPresented": "0",
+                    "certRevoked": "0",
+                    "certIssuerSerial": "",
+                    "certIssuerDNRFC2253": "",
+                    "certFingerprintSHA1": ""
+                },
+                "tlsExportedAuthenticator": {
+                    "clientFinished": "b91b24c62b7becc7f1c0c7ffd4a273267023f70f6d3bf75dadbf4d3be972df6dcb9b96e9f869be59240352cbddc7e2d7",
+                    "clientHandshake": "546ead2264c757c3edbed09408a2ec1da782c3ad5afeb45d3aab6be45cebd06a797c61f4ca93e4db7e590632df43d8fb",
+                    "serverHandshake": "165a905adb256276d5f50280901e1b73c0d0d25401b567b1b9b9fe3865ce09541064bfa5f8598b0230447da1f85e9389",
+                    "serverFinished": "284069292523b866936f0bde8215d6fcb555b1ff83bc933a0f0e8fe75b70decd7992ec74b981abc22e8d9124d1073fe2"
+                },
+                "tlsVersion": "TLSv1.3",
+                "colo": "IAD",
+                "timezone": "America/New_York",
+                "city": "Ashburn",
+                "edgeRequestKeepAliveStatus": 1,
+                "requestPriority": "",
+                "httpProtocol": "HTTP/1.1",
+                "region": "Virginia",
+                "regionCode": "VA",
+                "asOrganization": "Amazon.com",
+                "metroCode": "511",
+                "postalCode": "20149"
+            },
+            "signal": {
+                "aborted": false
+            },
+            "fetcher": {},
+            "redirect": "manual",
+            "headers": {},
+            "url": "https://testnet-turret-alpha1.s3x.workers.dev/tx-fees/GA4UPH2WH2H54FDN6I63264ADNSARFU6F6ADSB7XZKPWQOTYBA4EDGMZ",
+            "method": "POST",
+            "bodyUsed": false,
+            "body": {
+                "locked": false
+            }
+        }],
+        "level": "log",
+        "timestamp": 1641675463619
+    }, {
+        "message": ["END REQUEST"],
+        "level": "log",
+        "timestamp": 1641675463619
+    }, {
+        "message": [{}],
+        "level": "log",
+        "timestamp": 1641675463619
+    }, {
+        "message": ["END CTX"],
+        "level": "log",
+        "timestamp": 1641675463619
+    }, {
+        "message": ["The router match line 90 on index"],
+        "level": "log",
+        "timestamp": 1641675463619
+    }, {
+        "message": [{
+            "method": "POST",
+            "path": "/tx-fees/:publicKey",
+            "keys": [{
+                "name": "publicKey",
+                "prefix": "/",
+                "suffix": "",
+                "pattern": "[^\\/#\\?]+?",
+                "modifier": ""
+            }],
+            "options": {},
+            "regexp": {},
+            "matches": ["/tx-fees/GA4UPH2WH2H54FDN6I63264ADNSARFU6F6ADSB7XZKPWQOTYBA4EDGMZ", "GA4UPH2WH2H54FDN6I63264ADNSARFU6F6ADSB7XZKPWQOTYBA4EDGMZ"],
+            "params": {
+                "publicKey": "GA4UPH2WH2H54FDN6I63264ADNSARFU6F6ADSB7XZKPWQOTYBA4EDGMZ"
+            }
+        }],
+        "level": "log",
+        "timestamp": 1641675463619
+    }, {
+        "message": ["The router match end"],
+        "level": "log",
+        "timestamp": 1641675463619
+    }, {
+        "message": ["The router response on line 93"],
+        "level": "log",
+        "timestamp": 1641675469557
+    }, {
+        "message": [{
+            "webSocket": null,
+            "url": "",
+            "redirected": false,
+            "ok": true,
+            "headers": {},
+            "statusText": "OK",
+            "status": 200,
+            "bodyUsed": false,
+            "body": {
+                "locked": false
+            }
+        }],
+        "level": "log",
+        "timestamp": 1641675469557
+    }, {
+        "message": ["continues to the if method get"],
+        "level": "log",
+        "timestamp": 1641675469557
+    }, {
+        "message": ["heres the response dummy"],
+        "level": "log",
+        "timestamp": 1641675469557
+    }, {
+        "message": ["{\"webSocket\":null,\"url\":\"\",\"redirected\":false,\"ok\":true,\"headers\":{},\"statusText\":\"OK\",\"status\":200,\"bodyUsed\":false,\"body\":{\"locked\":false}}"],
+        "level": "log",
+        "timestamp": 1641675469557
+    }, {
+        "message": [{
+            "webSocket": null,
+            "url": "",
+            "redirected": false,
+            "ok": true,
+            "headers": {},
+            "statusText": "OK",
+            "status": 200,
+            "bodyUsed": false,
+            "body": {
+                "locked": false
+            }
+        }],
+        "level": "log",
+        "timestamp": 1641675469557
+    }],
+    "eventTimestamp": 1641675463619,
+    "event": {
+        "request": {
+            "url": "https://testnet-turret-alpha1.s3x.workers.dev/tx-fees/GA4UPH2WH2H54FDN6I63264ADNSARFU6F6ADSB7XZKPWQOTYBA4EDGMZ",
+            "method": "POST",
+            "headers": {
+                "accept": "application/json",
+                "accept-encoding": "gzip",
+                "accept-language": "en-US,en;q=0.9",
+                "cf-connecting-ip": "54.208.143.244",
+                "cf-ipcountry": "US",
+                "cf-ray": "6ca856ff89b25830",
+                "cf-visitor": "{\"scheme\":\"https\"}",
+                "connection": "Keep-Alive",
+                "content-length": "313",
+                "content-type": "application/json",
+                "dnt": "1",
+                "host": "testnet-turret-alpha1.s3x.workers.dev",
+                "referer": "https://app.swaggerhub.com/apis/StellarTurrets/prototype/1.0.0",
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"96\", \"Google Chrome\";v=\"96\"",
+                "sec-ch-ua-mobile": "?0",
+                "sec-ch-ua-platform": "\"Windows\"",
+                "sec-fetch-dest": "empty",
+                "sec-fetch-mode": "cors",
+                "sec-fetch-site": "same-origin",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36",
+                "x-amzn-trace-id": "Root=1-61d9fac7-149af460164529644353aa3c",
+                "x-forwarded-for": "72.241.33.170, 10.110.23.39",
+                "x-forwarded-port": "443",
+                "x-forwarded-proto": "https",
+                "x-real-ip": "54.208.143.244",
+                "x-swaggerhub-cookie": ""
+            },
+            "cf": {
+                "clientTcpRtt": 1,
+                "longitude": "-77.49030",
+                "latitude": "39.04690",
+                "tlsCipher": "AEAD-AES256-GCM-SHA384",
+                "continent": "NA",
+                "asn": 14618,
+                "clientAcceptEncoding": "gzip, deflate, br",
+                "country": "US",
+                "tlsClientAuth": {
+                    "certIssuerDNLegacy": "",
+                    "certIssuerSKI": "",
+                    "certSubjectDNRFC2253": "",
+                    "certSubjectDNLegacy": "",
+                    "certFingerprintSHA256": "",
+                    "certNotBefore": "",
+                    "certSKI": "",
+                    "certSerial": "",
+                    "certIssuerDN": "",
+                    "certVerified": "NONE",
+                    "certNotAfter": "",
+                    "certSubjectDN": "",
+                    "certPresented": "0",
+                    "certRevoked": "0",
+                    "certIssuerSerial": "",
+                    "certIssuerDNRFC2253": "",
+                    "certFingerprintSHA1": ""
+                },
+                "tlsExportedAuthenticator": {
+                    "clientFinished": "b91b24c62b7becc7f1c0c7ffd4a273267023f70f6d3bf75dadbf4d3be972df6dcb9b96e9f869be59240352cbddc7e2d7",
+                    "clientHandshake": "546ead2264c757c3edbed09408a2ec1da782c3ad5afeb45d3aab6be45cebd06a797c61f4ca93e4db7e590632df43d8fb",
+                    "serverHandshake": "165a905adb256276d5f50280901e1b73c0d0d25401b567b1b9b9fe3865ce09541064bfa5f8598b0230447da1f85e9389",
+                    "serverFinished": "284069292523b866936f0bde8215d6fcb555b1ff83bc933a0f0e8fe75b70decd7992ec74b981abc22e8d9124d1073fe2"
+                },
+                "tlsVersion": "TLSv1.3",
+                "colo": "IAD",
+                "timezone": "America/New_York",
+                "city": "Ashburn",
+                "edgeRequestKeepAliveStatus": 1,
+                "requestPriority": "",
+                "httpProtocol": "HTTP/1.1",
+                "region": "Virginia",
+                "regionCode": "VA",
+                "asOrganization": "Amazon.com",
+                "metroCode": "511",
+                "postalCode": "20149"
+            }
+        }
+    }
+}
+
+
+
+
+
+
+{
+    "outcome": "ok",
+    "scriptName": null,
+    "exceptions": [],
+    "logs": [{
+        "message": ["we are constructing the txfees durable obj"],
+        "level": "log",
+        "timestamp": 1641677616803
+    }, {
+        "message": ["from the state,"],
+        "level": "log",
+        "timestamp": 1641677616803
+    }, {
+        "message": [{
+            "storage": {},
+            "id": {}
+        }],
+        "level": "log",
+        "timestamp": 1641677616803
+    }, {
+        "message": ["and the env", {
+            "HORIZON_URL": "https://horizon-testnet.stellar.org",
+            "META": {},
+            "RUN_DIVISOR": "1000000",
+            "STELLAR_NETWORK": "TESTNET",
+            "TURRET_ADDRESS": "GAWFB46XRA6GKIYL6CDX7PPI5XIF5KDC44HZLQRSSHTTA2J2ELMQEEWC",
+            "TURRET_RUN_URL": "https://lp2sscctpi.execute-api.us-east-1.amazonaws.com",
+            "TURRET_SIGNER": "SDNQAFFYAJJEOMZ2VFACXPGI6Y454PIV7IFNWJ4KKHAC2BE3WWQNAEDJ",
+            "TX_FEES": {},
+            "TX_FUNCTIONS": {},
+            "UPLOAD_DIVISOR": "1000",
+            "XLM_FEE_MAX": "10",
+            "XLM_FEE_MIN": "1"
+        }],
+        "level": "log",
+        "timestamp": 1641677616803
+    }, {
+        "message": [{
+            "HORIZON_URL": "https://horizon-testnet.stellar.org",
+            "META": {},
+            "RUN_DIVISOR": "1000000",
+            "STELLAR_NETWORK": "TESTNET",
+            "TURRET_ADDRESS": "GAWFB46XRA6GKIYL6CDX7PPI5XIF5KDC44HZLQRSSHTTA2J2ELMQEEWC",
+            "TURRET_RUN_URL": "https://lp2sscctpi.execute-api.us-east-1.amazonaws.com",
+            "TURRET_SIGNER": "SDNQAFFYAJJEOMZ2VFACXPGI6Y454PIV7IFNWJ4KKHAC2BE3WWQNAEDJ",
+            "TX_FEES": {},
+            "TX_FUNCTIONS": {},
+            "UPLOAD_DIVISOR": "1000",
+            "XLM_FEE_MAX": "10",
+            "XLM_FEE_MIN": "1"
+        }],
+        "level": "log",
+        "timestamp": 1641677616803
+    }, {
+        "message": [{}],
+        "level": "log",
+        "timestamp": 1641677616803
+    }, {
+        "message": ["that was the storage"],
+        "level": "log",
+        "timestamp": 1641677616803
+    }, {
+        "message": ["we done it boyz"],
+        "level": "log",
+        "timestamp": 1641677616803
+    }, {
+        "message": ["in the fetch now"],
+        "level": "log",
+        "timestamp": 1641677616803
+    }, {
+        "message": ["POST"],
+        "level": "log",
+        "timestamp": 1641677616803
+    }, {
+        "message": [null],
+        "level": "log",
+        "timestamp": 1641677616803
+    }, {
+        "message": ["storage"],
+        "level": "log",
+        "timestamp": 1641677616803
+    }, {
+        "message": ["this was a that ln 39"],
+        "level": "log",
+        "timestamp": 1641677616803
+    }, {
+        "message": ["META"],
+        "level": "log",
+        "timestamp": 1641677616803
+    }, {
+        "message": ["this was a that ln 39"],
+        "level": "log",
+        "timestamp": 1641677616803
+    }, {
+        "message": [{
+            "lastModifiedTime": "1641675469543",
+            "balance": "27.0000000"
+        }],
+        "level": "log",
+        "timestamp": 1641677616974
+    }, {
+        "message": ["that was iv"],
+        "level": "log",
+        "timestamp": 1641677616974
+    }, {
+        "message": ["the value is set"],
+        "level": "log",
+        "timestamp": 1641677616974
+    }, {
+        "message": [{
+            "lastModifiedTime": "1641675469543",
+            "balance": "27.0000000"
+        }],
+        "level": "log",
+        "timestamp": 1641677616974
+    }, {
+        "message": ["the body on 107"],
+        "level": "log",
+        "timestamp": 1641677616974
+    }, {
+        "message": [{
+            "plus": "9.0000000"
+        }],
+        "level": "log",
+        "timestamp": 1641677616974
+    }, {
+        "message": ["plus"],
+        "level": "log",
+        "timestamp": 1641677616974
+    }, {
+        "message": [{
+            "plus": "9.0000000"
+        }],
+        "level": "log",
+        "timestamp": 1641677616974
+    }, {
+        "message": ["type of 112"],
+        "level": "log",
+        "timestamp": 1641677616974
+    }, {
+        "message": ["36.0000000"],
+        "level": "log",
+        "timestamp": 1641677616974
+    }, {
+        "message": ["this.value in 120"],
+        "level": "log",
+        "timestamp": 1641677616974
+    }, {
+        "message": [{
+            "lastModifiedTime": "1641677616974",
+            "balance": "36.0000000"
+        }],
+        "level": "log",
+        "timestamp": 1641677616974
+    }, {
+        "message": [{
+            "lastModifiedTime": "1641677616974",
+            "balance": "36.0000000"
+        }],
+        "level": "log",
+        "timestamp": 1641677616974
+    }],
+    "eventTimestamp": 1641677616803,
+    "event": {
+        "request": {
+            "url": "https://fake-host/",
+            "method": "POST",
+            "headers": {
+                "content-type": "application/json"
+            }
+        }
+    }
+} {
+    "outcome": "ok",
+    "scriptName": null,
+    "exceptions": [],
+    "logs": [{
+        "message": ["START ENV"],
+        "level": "log",
+        "timestamp": 1641677615231
+    }, {
+        "message": [{
+            "HORIZON_URL": "https://horizon-testnet.stellar.org",
+            "META": {},
+            "RUN_DIVISOR": "1000000",
+            "STELLAR_NETWORK": "TESTNET",
+            "TURRET_ADDRESS": "GAWFB46XRA6GKIYL6CDX7PPI5XIF5KDC44HZLQRSSHTTA2J2ELMQEEWC",
+            "TURRET_RUN_URL": "https://lp2sscctpi.execute-api.us-east-1.amazonaws.com",
+            "TURRET_SIGNER": "SDNQAFFYAJJEOMZ2VFACXPGI6Y454PIV7IFNWJ4KKHAC2BE3WWQNAEDJ",
+            "TX_FEES": {},
+            "TX_FUNCTIONS": {},
+            "UPLOAD_DIVISOR": "1000",
+            "XLM_FEE_MAX": "10",
+            "XLM_FEE_MIN": "1"
+        }],
+        "level": "log",
+        "timestamp": 1641677615231
+    }, {
+        "message": ["END ENV, start request line 55 index.js"],
+        "level": "log",
+        "timestamp": 1641677615231
+    }, {
+        "message": [{
+            "cf": {
+                "clientTcpRtt": 1,
+                "longitude": "-77.49030",
+                "latitude": "39.04690",
+                "tlsCipher": "AEAD-AES256-GCM-SHA384",
+                "continent": "NA",
+                "asn": 14618,
+                "clientAcceptEncoding": "gzip, deflate, br",
+                "country": "US",
+                "tlsClientAuth": {
+                    "certIssuerDNLegacy": "",
+                    "certIssuerSKI": "",
+                    "certSubjectDNRFC2253": "",
+                    "certSubjectDNLegacy": "",
+                    "certFingerprintSHA256": "",
+                    "certNotBefore": "",
+                    "certSKI": "",
+                    "certSerial": "",
+                    "certIssuerDN": "",
+                    "certVerified": "NONE",
+                    "certNotAfter": "",
+                    "certSubjectDN": "",
+                    "certPresented": "0",
+                    "certRevoked": "0",
+                    "certIssuerSerial": "",
+                    "certIssuerDNRFC2253": "",
+                    "certFingerprintSHA1": ""
+                },
+                "tlsExportedAuthenticator": {
+                    "clientFinished": "a8bca4147d62371c4b10738b5448163976a97ef14658e62627ee00960cfa877e543610527d5ca16019b07fe8f0b55e73",
+                    "clientHandshake": "c42635c5d70399c384f9614737b225e089bce9d2f3c02459a69ba1ab4020e5c392f81b57717eb15b0c8a619de7f485e3",
+                    "serverHandshake": "50245f5ca3201d0e76527411e2a7aa7a38f373311885f818276caec049f59250779018e33a9e0011c5e46414962ef7b9",
+                    "serverFinished": "8cc5fc9ee1aa92023d085a2e9965ea8ee01aa7f69ba9f6bf87a3bdf085f20b8efbade71a72bf1aa9cd9e1e40412af596"
+                },
+                "tlsVersion": "TLSv1.3",
+                "colo": "IAD",
+                "timezone": "America/New_York",
+                "city": "Ashburn",
+                "edgeRequestKeepAliveStatus": 1,
+                "requestPriority": "",
+                "httpProtocol": "HTTP/1.1",
+                "region": "Virginia",
+                "regionCode": "VA",
+                "asOrganization": "Amazon.com",
+                "metroCode": "511",
+                "postalCode": "20149"
+            },
+            "signal": {
+                "aborted": false
+            },
+            "fetcher": {},
+            "redirect": "manual",
+            "headers": {},
+            "url": "https://testnet-turret-alpha1.s3x.workers.dev/tx-fees/GA4UPH2WH2H54FDN6I63264ADNSARFU6F6ADSB7XZKPWQOTYBA4EDGMZ",
+            "method": "POST",
+            "bodyUsed": false,
+            "body": {
+                "locked": false
+            }
+        }],
+        "level": "log",
+        "timestamp": 1641677615231
+    }, {
+        "message": ["END REQUEST"],
+        "level": "log",
+        "timestamp": 1641677615231
+    }, {
+        "message": [{}],
+        "level": "log",
+        "timestamp": 1641677615231
+    }, {
+        "message": ["END CTX"],
+        "level": "log",
+        "timestamp": 1641677615231
+    }, {
+        "message": ["The router match line 90 on index"],
+        "level": "log",
+        "timestamp": 1641677615231
+    }, {
+        "message": [{
+            "method": "POST",
+            "path": "/tx-fees/:publicKey",
+            "keys": [{
+                "name": "publicKey",
+                "prefix": "/",
+                "suffix": "",
+                "pattern": "[^\\/#\\?]+?",
+                "modifier": ""
+            }],
+            "options": {},
+            "regexp": {},
+            "matches": ["/tx-fees/GA4UPH2WH2H54FDN6I63264ADNSARFU6F6ADSB7XZKPWQOTYBA4EDGMZ", "GA4UPH2WH2H54FDN6I63264ADNSARFU6F6ADSB7XZKPWQOTYBA4EDGMZ"],
+            "params": {
+                "publicKey": "GA4UPH2WH2H54FDN6I63264ADNSARFU6F6ADSB7XZKPWQOTYBA4EDGMZ"
+            }
+        }],
+        "level": "log",
+        "timestamp": 1641677615231
+    }, {
+        "message": ["The router match end"],
+        "level": "log",
+        "timestamp": 1641677615231
+    }, {
+        "message": ["The router response on line 93"],
+        "level": "log",
+        "timestamp": 1641677616987
+    }, {
+        "message": [{
+            "webSocket": null,
+            "url": "",
+            "redirected": false,
+            "ok": true,
+            "headers": {},
+            "statusText": "OK",
+            "status": 200,
+            "bodyUsed": false,
+            "body": {
+                "locked": false
+            }
+        }],
+        "level": "log",
+        "timestamp": 1641677616987
+    }, {
+        "message": ["continues to the if method get"],
+        "level": "log",
+        "timestamp": 1641677616987
+    }, {
+        "message": ["heres the response dummy"],
+        "level": "log",
+        "timestamp": 1641677616987
+    }, {
+        "message": ["{\"webSocket\":null,\"url\":\"\",\"redirected\":false,\"ok\":true,\"headers\":{},\"statusText\":\"OK\",\"status\":200,\"bodyUsed\":false,\"body\":{\"locked\":false}}"],
+        "level": "log",
+        "timestamp": 1641677616987
+    }, {
+        "message": [{
+            "webSocket": null,
+            "url": "",
+            "redirected": false,
+            "ok": true,
+            "headers": {},
+            "statusText": "OK",
+            "status": 200,
+            "bodyUsed": false,
+            "body": {
+                "locked": false
+            }
+        }],
+        "level": "log",
+        "timestamp": 1641677616987
+    }],
+    "eventTimestamp": 1641677615231,
+    "event": {
+        "request": {
+            "url": "https://testnet-turret-alpha1.s3x.workers.dev/tx-fees/GA4UPH2WH2H54FDN6I63264ADNSARFU6F6ADSB7XZKPWQOTYBA4EDGMZ",
+            "method": "POST",
+            "headers": {
+                "accept": "application/json",
+                "accept-encoding": "gzip",
+                "accept-language": "en-US,en;q=0.9",
+                "cf-connecting-ip": "34.203.79.108",
+                "cf-ipcountry": "US",
+                "cf-ray": "6ca88b865f335a39",
+                "cf-visitor": "{\"scheme\":\"https\"}",
+                "connection": "Keep-Alive",
+                "content-length": "313",
+                "content-type": "application/json",
+                "dnt": "1",
+                "host": "testnet-turret-alpha1.s3x.workers.dev",
+                "referer": "https://app.swaggerhub.com/apis/StellarTurrets/prototype/1.0.0",
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"96\", \"Google Chrome\";v=\"96\"",
+                "sec-ch-ua-mobile": "?0",
+                "sec-ch-ua-platform": "\"Windows\"",
+                "sec-fetch-dest": "empty",
+                "sec-fetch-mode": "cors",
+                "sec-fetch-site": "same-origin",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36",
+                "x-amzn-trace-id": "Root=1-61da032f-581a817a60ea6a5c1ff62e47",
+                "x-forwarded-for": "72.241.33.170, 10.110.24.67",
+                "x-forwarded-port": "443",
+                "x-forwarded-proto": "https",
+                "x-real-ip": "34.203.79.108",
+                "x-swaggerhub-cookie": ""
+            },
+            "cf": {
+                "clientTcpRtt": 1,
+                "longitude": "-77.49030",
+                "latitude": "39.04690",
+                "tlsCipher": "AEAD-AES256-GCM-SHA384",
+                "continent": "NA",
+                "asn": 14618,
+                "clientAcceptEncoding": "gzip, deflate, br",
+                "country": "US",
+                "tlsClientAuth": {
+                    "certIssuerDNLegacy": "",
+                    "certIssuerSKI": "",
+                    "certSubjectDNRFC2253": "",
+                    "certSubjectDNLegacy": "",
+                    "certFingerprintSHA256": "",
+                    "certNotBefore": "",
+                    "certSKI": "",
+                    "certSerial": "",
+                    "certIssuerDN": "",
+                    "certVerified": "NONE",
+                    "certNotAfter": "",
+                    "certSubjectDN": "",
+                    "certPresented": "0",
+                    "certRevoked": "0",
+                    "certIssuerSerial": "",
+                    "certIssuerDNRFC2253": "",
+                    "certFingerprintSHA1": ""
+                },
+                "tlsExportedAuthenticator": {
+                    "clientFinished": "a8bca4147d62371c4b10738b5448163976a97ef14658e62627ee00960cfa877e543610527d5ca16019b07fe8f0b55e73",
+                    "clientHandshake": "c42635c5d70399c384f9614737b225e089bce9d2f3c02459a69ba1ab4020e5c392f81b57717eb15b0c8a619de7f485e3",
+                    "serverHandshake": "50245f5ca3201d0e76527411e2a7aa7a38f373311885f818276caec049f59250779018e33a9e0011c5e46414962ef7b9",
+                    "serverFinished": "8cc5fc9ee1aa92023d085a2e9965ea8ee01aa7f69ba9f6bf87a3bdf085f20b8efbade71a72bf1aa9cd9e1e40412af596"
+                },
+                "tlsVersion": "TLSv1.3",
+                "colo": "IAD",
+                "timezone": "America/New_York",
+                "city": "Ashburn",
+                "edgeRequestKeepAliveStatus": 1,
+                "requestPriority": "",
+                "httpProtocol": "HTTP/1.1",
+                "region": "Virginia",
+                "regionCode": "VA",
+                "asOrganization": "Amazon.com",
+                "metroCode": "511",
+                "postalCode": "20149"
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+PS C:\stellar\turretpub\stellar-turrets\wrangler> wrangler kv:namespace list
+[{
+  "id": "2a148fab94c04d598591f97cf12dace8",
+  "title": "tsstestnet-META"
+}, {
+  "id": "4975480190854bb5883c3f6b4a9d36e8",
+  "title": "tss-META"
+}, {
+  "id": "4e4289b9d84245f3813161d81bbf673f",
+  "title": "tss-ALLOWED"
+}, {
+  "id": "5f6576b82d7847ce8ad24432bfc980cf",
+  "title": "tsstestnet-TX_FUNCTIONS"
+}, {
+  "id": "a70fdf390f0049b8bc15810aa6549fbd",
+  "title": "tss-TX_FUNCTIONS"
+}, {
+  "id": "c55abd53ae834edfb0ebc297e9deb43a",
+  "title": "testnet-turret-alpha1-META"
+}, {
+  "id": "da286bc1b94145088ee90a97a9fa8f4d",
+  "title": "testnet-turret-alpha1-TX_FUNCTIONS"
+}, {
+  "id": "fdddef33e9f44a83a554354f4329c3b2",
+  "title": "testnet-turret-alpha1-TESTY"
+}]
+
+
+PS C:\stellar\turretpub\stellar-turrets\wrangler> wrangler kv:key list --namespace-id c55abd53ae834edfb0ebc297e9deb43a
+[{"name":"TURRET_AUTH_TOKEN","expiration":"2022-01-17T04:39:08Z"},
+{"name":"STELLAR_TOML"}]
+PS C:\stellar\turretpub\stellar-turrets\wrangler> wrangler kv:key list --namespace-id da286bc1b94145088ee90a97a9fa8f4d
+[{"name":"b71cb52cc731fe20c9b27ca5dafed23c43641b9dd3a82fad2fbfd458f30bf05e"},
+{"name":"3036b67541caa568f0b4271ccf16fc25d94b15347911686cfc9dd72f4a3569ed"}]
+
+
+{"outcome":"ok","scriptName":null,"exceptions":[],"logs":[{"message":["handlescheduled metadata value is:"],"level":"log","timestamp":1641678604273},{"message":["metadata"],"level":"log","timestamp":1641678604273},{"message":[{"cron":"*/5 * * * *","scheduledTime":1641678604000}],"level":"log","timestamp":1641678604273},{"message":["env"],"level":"log","timestamp":1641678604273},{"message":[{"HORIZON_URL":"https://horizon-testnet.stellar.org","META":{},"RUN_DIVISOR":"1000000","STELLAR_NETWORK":"TESTNET","TURRET_ADDRESS":"GAWFB46XRA6GKIYL6CDX7PPI5XIF5KDC44HZLQRSSHTTA2J2ELMQEEWC","TURRET_RUN_URL":"https://lp2sscctpi.execute-api.us-east-1.amazonaws.com","TURRET_SIGNER":"SDNQAFFYAJJEOMZ2VFACXPGI6Y454PIV7IFNWJ4KKHAC2BE3WWQNAEDJ","TX_FEES":{},"TX_FUNCTIONS":{},"UPLOAD_DIVISOR":"1000","XLM_FEE_MAX":"10","XLM_FEE_MIN":"1"}],"level":"log","timestamp":1641678604273},{"message":["context"],"level":"log","timestamp":1641678604273},{"message":[{}],"level":"log","timestamp":1641678604273},{"message":["handlescheduled at line 131"],"level":"log","timestamp":1641678604273},{"message":["flushsingleuseauthtoken input is"],"level":"log","timestamp":1641678604273},{"message":[{"HORIZON_URL":"https://horizon-testnet.stellar.org","META":{},"RUN_DIVISOR":"1000000","STELLAR_NETWORK":"TESTNET","TURRET_ADDRESS":"GAWFB46XRA6GKIYL6CDX7PPI5XIF5KDC44HZLQRSSHTTA2J2ELMQEEWC","TURRET_RUN_URL":"https://lp2sscctpi.execute-api.us-east-1.amazonaws.com","TURRET_SIGNER":"SDNQAFFYAJJEOMZ2VFACXPGI6Y454PIV7IFNWJ4KKHAC2BE3WWQNAEDJ","TX_FEES":{},"TX_FUNCTIONS":{},"UPLOAD_DIVISOR":"1000","XLM_FEE_MAX":"10","XLM_FEE_MIN":"1"}],"level":"log","timestamp":1641678604273},{"message":["fin"],"level":"log","timestamp":1641678604273}],"eventTimestamp":1641678604273,"event":{"cron":"*/5 * * * *","scheduledTime":1641678604000}}
+{"outcome":"ok","scriptName":null,"exceptions":[],"logs":[{"message":["handlescheduled metadata value is:"],"level":"log","timestamp":1641678904860},{"message":["metadata"],"level":"log","timestamp":1641678904860},{"message":[{"cron":"*/5 * * * *","scheduledTime":1641678904000}],"level":"log","timestamp":1641678904860},{"message":["env"],"level":"log","timestamp":1641678904860},{"message":[{"HORIZON_URL":"https://horizon-testnet.stellar.org","META":{},"RUN_DIVISOR":"1000000","STELLAR_NETWORK":"TESTNET","TURRET_ADDRESS":"GAWFB46XRA6GKIYL6CDX7PPI5XIF5KDC44HZLQRSSHTTA2J2ELMQEEWC","TURRET_RUN_URL":"https://lp2sscctpi.execute-api.us-east-1.amazonaws.com","TURRET_SIGNER":"SDNQAFFYAJJEOMZ2VFACXPGI6Y454PIV7IFNWJ4KKHAC2BE3WWQNAEDJ","TX_FEES":{},"TX_FUNCTIONS":{},"UPLOAD_DIVISOR":"1000","XLM_FEE_MAX":"10","XLM_FEE_MIN":"1"}],"level":"log","timestamp":1641678904860},{"message":["context"],"level":"log","timestamp":1641678904860},{"message":[{}],"level":"log","timestamp":1641678904860},{"message":["handlescheduled at line 131"],"level":"log","timestamp":1641678904860},{"message":["flushsingleuseauthtoken input is"],"level":"log","timestamp":1641678904860},{"message":[{"HORIZON_URL":"https://horizon-testnet.stellar.org","META":{},"RUN_DIVISOR":"1000000","STELLAR_NETWORK":"TESTNET","TURRET_ADDRESS":"GAWFB46XRA6GKIYL6CDX7PPI5XIF5KDC44HZLQRSSHTTA2J2ELMQEEWC","TURRET_RUN_URL":"https://lp2sscctpi.execute-api.us-east-1.amazonaws.com","TURRET_SIGNER":"SDNQAFFYAJJEOMZ2VFACXPGI6Y454PIV7IFNWJ4KKHAC2BE3WWQNAEDJ","TX_FEES":{},"TX_FUNCTIONS":{},"UPLOAD_DIVISOR":"1000","XLM_FEE_MAX":"10","XLM_FEE_MIN":"1"}],"level":"log","timestamp":1641678904860},{"message":["fin"],"level":"log","timestamp":1641678904860}],"eventTimestamp":1641678904860,"event":{"cron":"*/5 * * * *","scheduledTime":1641678904000}}
+{
+    "outcome": "ok",
+    "scriptName": null,
+    "exceptions": [],
+    "logs": [{
+        "message": ["START ENV"],
+        "level": "log",
+        "timestamp": 1641679073756
+    }, {
+        "message": [{
+            "HORIZON_URL": "https://horizon-testnet.stellar.org",
+            "META": {},
+            "RUN_DIVISOR": "1000000",
+            "STELLAR_NETWORK": "TESTNET",
+            "TURRET_ADDRESS": "GAWFB46XRA6GKIYL6CDX7PPI5XIF5KDC44HZLQRSSHTTA2J2ELMQEEWC",
+            "TURRET_RUN_URL": "https://lp2sscctpi.execute-api.us-east-1.amazonaws.com",
+            "TURRET_SIGNER": "SDNQAFFYAJJEOMZ2VFACXPGI6Y454PIV7IFNWJ4KKHAC2BE3WWQNAEDJ",
+            "TX_FEES": {},
+            "TX_FUNCTIONS": {},
+            "UPLOAD_DIVISOR": "1000",
+            "XLM_FEE_MAX": "10",
+            "XLM_FEE_MIN": "1"
+        }],
+        "level": "log",
+        "timestamp": 1641679073756
+    }, {
+        "message": ["END ENV, start request line 55 index.js"],
+        "level": "log",
+        "timestamp": 1641679073756
+    }, {
+        "message": [{
+            "cf": {
+                "clientTcpRtt": 2,
+                "longitude": "-77.49030",
+                "latitude": "39.04690",
+                "tlsCipher": "AEAD-AES256-GCM-SHA384",
+                "continent": "NA",
+                "asn": 14618,
+                "clientAcceptEncoding": "gzip, deflate, br",
+                "country": "US",
+                "tlsClientAuth": {
+                    "certIssuerDNLegacy": "",
+                    "certIssuerSKI": "",
+                    "certSubjectDNRFC2253": "",
+                    "certSubjectDNLegacy": "",
+                    "certFingerprintSHA256": "",
+                    "certNotBefore": "",
+                    "certSKI": "",
+                    "certSerial": "",
+                    "certIssuerDN": "",
+                    "certVerified": "NONE",
+                    "certNotAfter": "",
+                    "certSubjectDN": "",
+                    "certPresented": "0",
+                    "certRevoked": "0",
+                    "certIssuerSerial": "",
+                    "certIssuerDNRFC2253": "",
+                    "certFingerprintSHA1": ""
+                },
+                "tlsExportedAuthenticator": {
+                    "clientFinished": "648bc3ccc2c3ed4e0d99c6786cad4f45e8842fd0858361b27367058dbc1a6e5c3f554fe6597b6f7b18028707cf33258c",
+                    "clientHandshake": "4d97c71cb1868d6481f05ed62bca24a29edb91ddeb0f20889a00c40e88b32cc4feb1f80a9ddee8c334655a8446aa5a03",
+                    "serverHandshake": "2c101e33f450cacbf873855784ad44466f3750983d84c541accdd09975792de60158b1f98acfa71b3747ec5c8714d647",
+                    "serverFinished": "668fb5c9458cd39c3720f756fbd5ffe4af36880726915bc464ed4f8a6ef5a57871891e73fe00d574bc2e2868c735deab"
+                },
+                "tlsVersion": "TLSv1.3",
+                "colo": "IAD",
+                "timezone": "America/New_York",
+                "city": "Ashburn",
+                "edgeRequestKeepAliveStatus": 1,
+                "requestPriority": "",
+                "httpProtocol": "HTTP/1.1",
+                "region": "Virginia",
+                "regionCode": "VA",
+                "asOrganization": "Amazon.com",
+                "metroCode": "511",
+                "postalCode": "20149"
+            },
+            "signal": {
+                "aborted": false
+            },
+            "fetcher": {},
+            "redirect": "manual",
+            "headers": {},
+            "url": "https://testnet-turret-alpha1.s3x.workers.dev/tx-fees",
+            "method": "GET",
+            "bodyUsed": false,
+            "body": {
+                "locked": false
+            }
+        }],
+        "level": "log",
+        "timestamp": 1641679073756
+    }, {
+        "message": ["END REQUEST"],
+        "level": "log",
+        "timestamp": 1641679073756
+    }, {
+        "message": [{}],
+        "level": "log",
+        "timestamp": 1641679073756
+    }, {
+        "message": ["END CTX"],
+        "level": "log",
+        "timestamp": 1641679073756
+    }, {
+        "message": ["The router match line 90 on index"],
+        "level": "log",
+        "timestamp": 1641679073756
+    }, {
+        "message": [{
+            "method": "GET",
+            "path": "/tx-fees",
+            "keys": [],
+            "options": {},
+            "regexp": {},
+            "matches": ["/tx-fees"],
+            "params": {}
+        }],
+        "level": "log",
+        "timestamp": 1641679073756
+    }, {
+        "message": ["The router match end"],
+        "level": "log",
+        "timestamp": 1641679073756
+    }, {
+        "message": ["welcome to the authtxtoken function I shall be your logger"],
+        "level": "log",
+        "timestamp": 1641679073756
+    }, {
+        "message": ["first i will give you network, then authtoken then a string saying end in the future it will just be start, params, end"],
+        "level": "log",
+        "timestamp": 1641679073756
+    }, {
+        "message": ["TESTNET"],
+        "level": "log",
+        "timestamp": 1641679073756
+    }, {
+        "message": ["AAAAAgAAAAA5R59WPo/eFG3yPb17gBtkCJaeL4A5B/fKn2g6eAg4QQAAAGQAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAABh21h/AAAAAAAAAAEAAAAAAAAACgAAAAlzaW5nbGVVc2UAAAAAAAABAAAABHRydWUAAAAAAAAAAXgIOEEAAABAXLnkg3y4JDMddJ60MMcZ7Z04cnb+Ib416g9xe9oUcFGW3Rabuu6A5omDuerVL0Ap/jau48KG0aySMxk2LhKpAQ=="],
+        "level": "log",
+        "timestamp": 1641679073756
+    }, {
+        "message": ["end"],
+        "level": "log",
+        "timestamp": 1641679073756
+    }, {
+        "message": ["the authtx"],
+        "level": "log",
+        "timestamp": 1641679073756
+    }, {
+        "message": [{
+            "_networkPassphrase": "Test SDF Network ; September 2015",
+            "_tx": {
+                "_attributes": {
+                    "sourceAccount": {
+                        "_switch": {
+                            "name": "keyTypeEd25519",
+                            "value": 0
+                        },
+                        "_arm": "ed25519",
+                        "_armType": {
+                            "_length": 32,
+                            "_padding": 0
+                        },
+                        "_value": {
+                            "type": "Buffer",
+                            "data": [57, 71, 159, 86, 62, 143, 222, 20, 109, 242, 61, 189, 123, 128, 27, 100, 8, 150, 158, 47, 128, 57, 7, 247, 202, 159, 104, 58, 120, 8, 56, 65]
+                        }
+                    },
+                    "fee": 100,
+                    "seqNum": {
+                        "low": 0,
+                        "high": 0,
+                        "unsigned": false
+                    },
+                    "timeBounds": {
+                        "_attributes": {
+                            "minTime": {
+                                "low": 0,
+                                "high": 0,
+                                "unsigned": true
+                            },
+                            "maxTime": {
+                                "low": 1641764991,
+                                "high": 0,
+                                "unsigned": true
+                            }
+                        }
+                    },
+                    "memo": {
+                        "_switch": {
+                            "name": "memoNone",
+                            "value": 0
+                        },
+                        "_arm": {},
+                        "_armType": {}
+                    },
+                    "operations": [{
+                        "_attributes": {
+                            "body": {
+                                "_switch": {
+                                    "name": "manageData",
+                                    "value": 10
+                                },
+                                "_arm": "manageDataOp",
+                                "_value": {
+                                    "_attributes": {
+                                        "dataName": {
+                                            "type": "Buffer",
+                                            "data": [115, 105, 110, 103, 108, 101, 85, 115, 101]
+                                        },
+                                        "dataValue": {
+                                            "type": "Buffer",
+                                            "data": [116, 114, 117, 101]
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }],
+                    "ext": {
+                        "_switch": 0,
+                        "_arm": {},
+                        "_armType": {}
+                    }
+                }
+            },
+            "_signatures": [{
+                "_attributes": {
+                    "hint": {
+                        "type": "Buffer",
+                        "data": [120, 8, 56, 65]
+                    },
+                    "signature": {
+                        "type": "Buffer",
+                        "data": [92, 185, 228, 131, 124, 184, 36, 51, 29, 116, 158, 180, 48, 199, 25, 237, 157, 56, 114, 118, 254, 33, 190, 53, 234, 15, 113, 123, 218, 20, 112, 81, 150, 221, 22, 155, 186, 238, 128, 230, 137, 131, 185, 234, 213, 47, 64, 41, 254, 54, 174, 227, 194, 134, 209, 172, 146, 51, 25, 54, 46, 18, 169, 1]
+                    }
+                }
+            }],
+            "_fee": "100",
+            "_envelopeType": {
+                "name": "envelopeTypeTx",
+                "value": 2
+            },
+            "_memo": {
+                "_switch": {
+                    "name": "memoNone",
+                    "value": 0
+                },
+                "_arm": {},
+                "_armType": {}
+            },
+            "_sequence": "0",
+            "_source": "GA4UPH2WH2H54FDN6I63264ADNSARFU6F6ADSB7XZKPWQOTYBA4EDGMZ",
+            "_timeBounds": {
+                "minTime": "0",
+                "maxTime": "1641764991"
+            },
+            "_operations": [{
+                "type": "manageData",
+                "name": "singleUse",
+                "value": {
+                    "type": "Buffer",
+                    "data": [116, 114, 117, 101]
+                }
+            }]
+        }],
+        "level": "log",
+        "timestamp": 1641679073756
+    }, {
+        "message": ["the end of authtx"],
+        "level": "log",
+        "timestamp": 1641679073756
+    }, {
+        "message": ["GA4UPH2WH2H54FDN6I63264ADNSARFU6F6ADSB7XZKPWQOTYBA4EDGMZ"],
+        "level": "log",
+        "timestamp": 1641679073756
+    }, {
+        "message": ["the op at ln 66 of auth.js"],
+        "level": "log",
+        "timestamp": 1641679073756
+    }],
+    "eventTimestamp": 1641679073756,
+    "event": {
+        "request": {
+            "url": "https://testnet-turret-alpha1.s3x.workers.dev/tx-fees",
+            "method": "GET",
+            "headers": {
+                "accept": "application/json",
+                "accept-encoding": "gzip",
+                "accept-language": "en-US,en;q=0.9",
+                "authorization": "REDACTED",
+                "cf-connecting-ip": "52.21.147.173",
+                "cf-ipcountry": "US",
+                "cf-ray": "6ca8af22185e57a6",
+                "cf-visitor": "{\"scheme\":\"https\"}",
+                "connection": "Keep-Alive",
+                "content-length": "0",
+                "dnt": "1",
+                "host": "testnet-turret-alpha1.s3x.workers.dev",
+                "referer": "https://app.swaggerhub.com/apis/StellarTurrets/prototype/1.0.0",
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"96\", \"Google Chrome\";v=\"96\"",
+                "sec-ch-ua-mobile": "?0",
+                "sec-ch-ua-platform": "\"Windows\"",
+                "sec-fetch-dest": "empty",
+                "sec-fetch-mode": "cors",
+                "sec-fetch-site": "same-origin",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36",
+                "x-amzn-trace-id": "Root=1-61da08e1-5759127817ce0da73ae6b786",
+                "x-forwarded-for": "72.241.33.170, 10.110.22.223",
+                "x-forwarded-port": "443",
+                "x-forwarded-proto": "https",
+                "x-real-ip": "52.21.147.173",
+                "x-swaggerhub-cookie": ""
+            },
+            "cf": {
+                "clientTcpRtt": 2,
+                "longitude": "-77.49030",
+                "latitude": "39.04690",
+                "tlsCipher": "AEAD-AES256-GCM-SHA384",
+                "continent": "NA",
+                "asn": 14618,
+                "clientAcceptEncoding": "gzip, deflate, br",
+                "country": "US",
+                "tlsClientAuth": {
+                    "certIssuerDNLegacy": "",
+                    "certIssuerSKI": "",
+                    "certSubjectDNRFC2253": "",
+                    "certSubjectDNLegacy": "",
+                    "certFingerprintSHA256": "",
+                    "certNotBefore": "",
+                    "certSKI": "",
+                    "certSerial": "",
+                    "certIssuerDN": "",
+                    "certVerified": "NONE",
+                    "certNotAfter": "",
+                    "certSubjectDN": "",
+                    "certPresented": "0",
+                    "certRevoked": "0",
+                    "certIssuerSerial": "",
+                    "certIssuerDNRFC2253": "",
+                    "certFingerprintSHA1": ""
+                },
+                "tlsExportedAuthenticator": {
+                    "clientFinished": "648bc3ccc2c3ed4e0d99c6786cad4f45e8842fd0858361b27367058dbc1a6e5c3f554fe6597b6f7b18028707cf33258c",
+                    "clientHandshake": "4d97c71cb1868d6481f05ed62bca24a29edb91ddeb0f20889a00c40e88b32cc4feb1f80a9ddee8c334655a8446aa5a03",
+                    "serverHandshake": "2c101e33f450cacbf873855784ad44466f3750983d84c541accdd09975792de60158b1f98acfa71b3747ec5c8714d647",
+                    "serverFinished": "668fb5c9458cd39c3720f756fbd5ffe4af36880726915bc464ed4f8a6ef5a57871891e73fe00d574bc2e2868c735deab"
+                },
+                "tlsVersion": "TLSv1.3",
+                "colo": "IAD",
+                "timezone": "America/New_York",
+                "city": "Ashburn",
+                "edgeRequestKeepAliveStatus": 1,
+                "requestPriority": "",
+                "httpProtocol": "HTTP/1.1",
+                "region": "Virginia",
+                "regionCode": "VA",
+                "asOrganization": "Amazon.com",
+                "metroCode": "511",
+                "postalCode": "20149"
+            }
+        }
+    }
+}
+
+
+## error from single use auth:[{
+    "message": "O.value.tostring is not a function: Failed during auth",
+    "status": 400}]
+
+
+
+
+{
+    "outcome": "ok",
+    "scriptName": null,
+    "exceptions": [],
+    "logs": [{
+        "message": ["we are constructing the txfees durable obj"],
+        "level": "log",
+        "timestamp": 1641680682786
+    }, {
+        "message": ["from the state,"],
+        "level": "log",
+        "timestamp": 1641680682786
+    }, {
+        "message": [{
+            "storage": {},
+            "id": {}
+        }],
+        "level": "log",
+        "timestamp": 1641680682786
+    }, {
+        "message": ["and the env", {
+            "HORIZON_URL": "https://horizon-testnet.stellar.org",
+            "META": {},
+            "RUN_DIVISOR": "1000000",
+            "STELLAR_NETWORK": "TESTNET",
+            "TURRET_ADDRESS": "GAWFB46XRA6GKIYL6CDX7PPI5XIF5KDC44HZLQRSSHTTA2J2ELMQEEWC",
+            "TURRET_RUN_URL": "https://lp2sscctpi.execute-api.us-east-1.amazonaws.com",
+            "TURRET_SIGNER": "SDNQAFFYAJJEOMZ2VFACXPGI6Y454PIV7IFNWJ4KKHAC2BE3WWQNAEDJ",
+            "TX_FEES": {},
+            "TX_FUNCTIONS": {},
+            "UPLOAD_DIVISOR": "1000",
+            "XLM_FEE_MAX": "10",
+            "XLM_FEE_MIN": "1"
+        }],
+        "level": "log",
+        "timestamp": 1641680682786
+    }, {
+        "message": [{
+            "HORIZON_URL": "https://horizon-testnet.stellar.org",
+            "META": {},
+            "RUN_DIVISOR": "1000000",
+            "STELLAR_NETWORK": "TESTNET",
+            "TURRET_ADDRESS": "GAWFB46XRA6GKIYL6CDX7PPI5XIF5KDC44HZLQRSSHTTA2J2ELMQEEWC",
+            "TURRET_RUN_URL": "https://lp2sscctpi.execute-api.us-east-1.amazonaws.com",
+            "TURRET_SIGNER": "SDNQAFFYAJJEOMZ2VFACXPGI6Y454PIV7IFNWJ4KKHAC2BE3WWQNAEDJ",
+            "TX_FEES": {},
+            "TX_FUNCTIONS": {},
+            "UPLOAD_DIVISOR": "1000",
+            "XLM_FEE_MAX": "10",
+            "XLM_FEE_MIN": "1"
+        }],
+        "level": "log",
+        "timestamp": 1641680682786
+    }, {
+        "message": [{}],
+        "level": "log",
+        "timestamp": 1641680682786
+    }, {
+        "message": ["that was the storage"],
+        "level": "log",
+        "timestamp": 1641680682786
+    }, {
+        "message": ["we done it boyz"],
+        "level": "log",
+        "timestamp": 1641680682786
+    }, {
+        "message": ["in the fetch now"],
+        "level": "log",
+        "timestamp": 1641680682786
+    }, {
+        "message": ["GET"],
+        "level": "log",
+        "timestamp": 1641680682786
+    }, {
+        "message": [null],
+        "level": "log",
+        "timestamp": 1641680682786
+    }, {
+        "message": ["storage"],
+        "level": "log",
+        "timestamp": 1641680682786
+    }, {
+        "message": ["this was a that ln 39"],
+        "level": "log",
+        "timestamp": 1641680682786
+    }, {
+        "message": ["META"],
+        "level": "log",
+        "timestamp": 1641680682786
+    }, {
+        "message": ["this was a that ln 39"],
+        "level": "log",
+        "timestamp": 1641680682786
+    }, {
+        "message": [{
+            "lastModifiedTime": "1641677616974",
+            "balance": "36.0000000"
+        }],
+        "level": "log",
+        "timestamp": 1641680682914
+    }, {
+        "message": ["that was iv"],
+        "level": "log",
+        "timestamp": 1641680682914
+    }, {
+        "message": ["the value is set"],
+        "level": "log",
+        "timestamp": 1641680682914
+    }, {
+        "message": [{
+            "lastModifiedTime": "1641677616974",
+            "balance": "36.0000000"
+        }],
+        "level": "log",
+        "timestamp": 1641680682914
+    }, {
+        "message": ["ln130 says this.value "],
+        "level": "log",
+        "timestamp": 1641680682914
+    }, {
+        "message": [{
+            "lastModifiedTime": "1641677616974",
+            "balance": "36.0000000"
+        }],
+        "level": "log",
+        "timestamp": 1641680682914
+    }, {
+        "message": [{}],
+        "level": "log",
+        "timestamp": 1641680682914
+    }],
+    "eventTimestamp": 1641680682786,
+    "event": {
+        "request": {
+            "url": "https://fake-host/",
+            "method": "GET",
+            "headers": {}
+        }
+    }
+} {
+    "outcome": "ok",
+    "scriptName": null,
+    "exceptions": [],
+    "logs": [{
+        "message": ["START ENV"],
+        "level": "log",
+        "timestamp": 1641680682451
+    }, {
+        "message": [{
+            "HORIZON_URL": "https://horizon-testnet.stellar.org",
+            "META": {},
+            "RUN_DIVISOR": "1000000",
+            "STELLAR_NETWORK": "TESTNET",
+            "TURRET_ADDRESS": "GAWFB46XRA6GKIYL6CDX7PPI5XIF5KDC44HZLQRSSHTTA2J2ELMQEEWC",
+            "TURRET_RUN_URL": "https://lp2sscctpi.execute-api.us-east-1.amazonaws.com",
+            "TURRET_SIGNER": "SDNQAFFYAJJEOMZ2VFACXPGI6Y454PIV7IFNWJ4KKHAC2BE3WWQNAEDJ",
+            "TX_FEES": {},
+            "TX_FUNCTIONS": {},
+            "UPLOAD_DIVISOR": "1000",
+            "XLM_FEE_MAX": "10",
+            "XLM_FEE_MIN": "1"
+        }],
+        "level": "log",
+        "timestamp": 1641680682451
+    }, {
+        "message": ["END ENV, start request line 55 index.js"],
+        "level": "log",
+        "timestamp": 1641680682451
+    }, {
+        "message": [{
+            "cf": {
+                "clientTcpRtt": 2,
+                "longitude": "-77.49030",
+                "latitude": "39.04690",
+                "tlsCipher": "AEAD-AES256-GCM-SHA384",
+                "continent": "NA",
+                "asn": 14618,
+                "clientAcceptEncoding": "gzip, deflate, br",
+                "country": "US",
+                "tlsClientAuth": {
+                    "certIssuerDNLegacy": "",
+                    "certIssuerSKI": "",
+                    "certSubjectDNRFC2253": "",
+                    "certSubjectDNLegacy": "",
+                    "certFingerprintSHA256": "",
+                    "certNotBefore": "",
+                    "certSKI": "",
+                    "certSerial": "",
+                    "certIssuerDN": "",
+                    "certVerified": "NONE",
+                    "certNotAfter": "",
+                    "certSubjectDN": "",
+                    "certPresented": "0",
+                    "certRevoked": "0",
+                    "certIssuerSerial": "",
+                    "certIssuerDNRFC2253": "",
+                    "certFingerprintSHA1": ""
+                },
+                "tlsExportedAuthenticator": {
+                    "clientFinished": "916399900b00115a5f2af4d1869007bf914e520f0882cc3381a33f293434b8fad4c757388f2ce6e0d087635ddfd875bf",
+                    "clientHandshake": "03f9e199bd320016b72186d1f21da5ccfc3ad8513a3db99c00281b7292cac713fb8b0d726a071f611fc39ba73c82e7a7",
+                    "serverHandshake": "d0a4ce115d1371f7897186506bf8add2ff015f43206113a6c78b67b3dadfc225d49fef7c05ffc7f85486d74515f7dcbd",
+                    "serverFinished": "a05abb5b0e40f1175fcaceee6e81397e09b337c3d27e245663a40ce0903f29f06c63ee3444cc1e7d9debfda7f5d5db1b"
+                },
+                "tlsVersion": "TLSv1.3",
+                "colo": "IAD",
+                "timezone": "America/New_York",
+                "city": "Ashburn",
+                "edgeRequestKeepAliveStatus": 1,
+                "requestPriority": "",
+                "httpProtocol": "HTTP/1.1",
+                "region": "Virginia",
+                "regionCode": "VA",
+                "asOrganization": "Amazon.com",
+                "metroCode": "511",
+                "postalCode": "20149"
+            },
+            "signal": {
+                "aborted": false
+            },
+            "fetcher": {},
+            "redirect": "manual",
+            "headers": {},
+            "url": "https://testnet-turret-alpha1.s3x.workers.dev/tx-fees",
+            "method": "GET",
+            "bodyUsed": false,
+            "body": {
+                "locked": false
+            }
+        }],
+        "level": "log",
+        "timestamp": 1641680682451
+    }, {
+        "message": ["END REQUEST"],
+        "level": "log",
+        "timestamp": 1641680682451
+    }, {
+        "message": [{}],
+        "level": "log",
+        "timestamp": 1641680682451
+    }, {
+        "message": ["END CTX"],
+        "level": "log",
+        "timestamp": 1641680682451
+    }, {
+        "message": ["The router match line 90 on index"],
+        "level": "log",
+        "timestamp": 1641680682451
+    }, {
+        "message": [{
+            "method": "GET",
+            "path": "/tx-fees",
+            "keys": [],
+            "options": {},
+            "regexp": {},
+            "matches": ["/tx-fees"],
+            "params": {}
+        }],
+        "level": "log",
+        "timestamp": 1641680682451
+    }, {
+        "message": ["The router match end"],
+        "level": "log",
+        "timestamp": 1641680682451
+    }, {
+        "message": ["welcome to the authtxtoken function I shall be your logger"],
+        "level": "log",
+        "timestamp": 1641680682451
+    }, {
+        "message": ["first i will give you network, then authtoken then a string saying end in the future it will just be start, params, end"],
+        "level": "log",
+        "timestamp": 1641680682451
+    }, {
+        "message": ["TESTNET"],
+        "level": "log",
+        "timestamp": 1641680682451
+    }, {
+        "message": ["AAAAAgAAAAA5R59WPo/eFG3yPb17gBtkCJaeL4A5B/fKn2g6eAg4QQAAAGQAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAABh2hzUAAAAAAAAAAEAAAAAAAAACgAAAAlzaW5nbGVVc2UAAAAAAAABAAAABHRydWUAAAAAAAAAAXgIOEEAAABAhuUUr7gPwxBld6RmwbJy2ZOkOsDXa0JRckuhpwo2I7ehnNuedrYFQJyDt23xzmOx5iIAb4CaEd2PJnZ5ZtI8BA=="],
+        "level": "log",
+        "timestamp": 1641680682451
+    }, {
+        "message": ["end"],
+        "level": "log",
+        "timestamp": 1641680682451
+    }, {
+        "message": ["the authtx"],
+        "level": "log",
+        "timestamp": 1641680682451
+    }, {
+        "message": [{
+            "_networkPassphrase": "Test SDF Network ; September 2015",
+            "_tx": {
+                "_attributes": {
+                    "sourceAccount": {
+                        "_switch": {
+                            "name": "keyTypeEd25519",
+                            "value": 0
+                        },
+                        "_arm": "ed25519",
+                        "_armType": {
+                            "_length": 32,
+                            "_padding": 0
+                        },
+                        "_value": {
+                            "type": "Buffer",
+                            "data": [57, 71, 159, 86, 62, 143, 222, 20, 109, 242, 61, 189, 123, 128, 27, 100, 8, 150, 158, 47, 128, 57, 7, 247, 202, 159, 104, 58, 120, 8, 56, 65]
+                        }
+                    },
+                    "fee": 100,
+                    "seqNum": {
+                        "low": 0,
+                        "high": 0,
+                        "unsigned": false
+                    },
+                    "timeBounds": {
+                        "_attributes": {
+                            "minTime": {
+                                "low": 0,
+                                "high": 0,
+                                "unsigned": true
+                            },
+                            "maxTime": {
+                                "low": 1641684180,
+                                "high": 0,
+                                "unsigned": true
+                            }
+                        }
+                    },
+                    "memo": {
+                        "_switch": {
+                            "name": "memoNone",
+                            "value": 0
+                        },
+                        "_arm": {},
+                        "_armType": {}
+                    },
+                    "operations": [{
+                        "_attributes": {
+                            "body": {
+                                "_switch": {
+                                    "name": "manageData",
+                                    "value": 10
+                                },
+                                "_arm": "manageDataOp",
+                                "_value": {
+                                    "_attributes": {
+                                        "dataName": {
+                                            "type": "Buffer",
+                                            "data": [115, 105, 110, 103, 108, 101, 85, 115, 101]
+                                        },
+                                        "dataValue": {
+                                            "type": "Buffer",
+                                            "data": [116, 114, 117, 101]
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }],
+                    "ext": {
+                        "_switch": 0,
+                        "_arm": {},
+                        "_armType": {}
+                    }
+                }
+            },
+            "_signatures": [{
+                "_attributes": {
+                    "hint": {
+                        "type": "Buffer",
+                        "data": [120, 8, 56, 65]
+                    },
+                    "signature": {
+                        "type": "Buffer",
+                        "data": [134, 229, 20, 175, 184, 15, 195, 16, 101, 119, 164, 102, 193, 178, 114, 217, 147, 164, 58, 192, 215, 107, 66, 81, 114, 75, 161, 167, 10, 54, 35, 183, 161, 156, 219, 158, 118, 182, 5, 64, 156, 131, 183, 109, 241, 206, 99, 177, 230, 34, 0, 111, 128, 154, 17, 221, 143, 38, 118, 121, 102, 210, 60, 4]
+                    }
+                }
+            }],
+            "_fee": "100",
+            "_envelopeType": {
+                "name": "envelopeTypeTx",
+                "value": 2
+            },
+            "_memo": {
+                "_switch": {
+                    "name": "memoNone",
+                    "value": 0
+                },
+                "_arm": {},
+                "_armType": {}
+            },
+            "_sequence": "0",
+            "_source": "GA4UPH2WH2H54FDN6I63264ADNSARFU6F6ADSB7XZKPWQOTYBA4EDGMZ",
+            "_timeBounds": {
+                "minTime": "0",
+                "maxTime": "1641684180"
+            },
+            "_operations": [{
+                "type": "manageData",
+                "name": "singleUse",
+                "value": {
+                    "type": "Buffer",
+                    "data": [116, 114, 117, 101]
+                }
+            }]
+        }],
+        "level": "log",
+        "timestamp": 1641680682451
+    }, {
+        "message": ["the end of authtx"],
+        "level": "log",
+        "timestamp": 1641680682451
+    }, {
+        "message": ["GA4UPH2WH2H54FDN6I63264ADNSARFU6F6ADSB7XZKPWQOTYBA4EDGMZ"],
+        "level": "log",
+        "timestamp": 1641680682451
+    }, {
+        "message": ["the op at ln 66 of auth.js"],
+        "level": "log",
+        "timestamp": 1641680682451
+    }, {
+        "message": ["ln 67 of auth.js"],
+        "level": "log",
+        "timestamp": 1641680682451
+    }, {
+        "message": [{
+            "type": "manageData",
+            "name": "singleUse",
+            "value": {
+                "type": "Buffer",
+                "data": [116, 114, 117, 101]
+            }
+        }],
+        "level": "log",
+        "timestamp": 1641680682451
+    }, {
+        "message": ["the end of the op"],
+        "level": "log",
+        "timestamp": 1641680682451
+    }, {
+        "message": ["type"],
+        "level": "log",
+        "timestamp": 1641680682451
+    }, {
+        "message": ["ln 72 in auth.js"],
+        "level": "log",
+        "timestamp": 1641680682451
+    }, {
+        "message": ["name"],
+        "level": "log",
+        "timestamp": 1641680682451
+    }, {
+        "message": ["ln 72 in auth.js"],
+        "level": "log",
+        "timestamp": 1641680682451
+    }, {
+        "message": ["value"],
+        "level": "log",
+        "timestamp": 1641680682451
+    }, {
+        "message": ["ln 72 in auth.js"],
+        "level": "log",
+        "timestamp": 1641680682451
+    }, {
+        "message": ["ln 71 of auth.js"],
+        "level": "log",
+        "timestamp": 1641680682451
+    }, {
+        "message": ["true"],
+        "level": "log",
+        "timestamp": 1641680682451
+    }, {
+        "message": ["ln80 auth.js op.name", "singleUse"],
+        "level": "log",
+        "timestamp": 1641680682451
+    }, {
+        "message": ["The router response on line 93"],
+        "level": "log",
+        "timestamp": 1641680682742
+    }, {
+        "message": [{
+            "webSocket": null,
+            "url": "",
+            "redirected": false,
+            "ok": true,
+            "headers": {},
+            "statusText": "OK",
+            "status": 200,
+            "bodyUsed": false,
+            "body": {
+                "locked": false
+            }
+        }],
+        "level": "log",
+        "timestamp": 1641680682742
+    }, {
+        "message": ["continues to the if method get"],
+        "level": "log",
+        "timestamp": 1641680682742
+    }, {
+        "message": ["heres the response dummy"],
+        "level": "log",
+        "timestamp": 1641680682742
+    }, {
+        "message": ["{\"webSocket\":null,\"url\":\"\",\"redirected\":false,\"ok\":true,\"headers\":{},\"statusText\":\"OK\",\"status\":200,\"bodyUsed\":false,\"body\":{\"locked\":false}}"],
+        "level": "log",
+        "timestamp": 1641680682742
+    }, {
+        "message": [{
+            "webSocket": null,
+            "url": "",
+            "redirected": false,
+            "ok": true,
+            "headers": {},
+            "statusText": "OK",
+            "status": 200,
+            "bodyUsed": false,
+            "body": {
+                "locked": false
+            }
+        }],
+        "level": "log",
+        "timestamp": 1641680682742
+    }],
+    "eventTimestamp": 1641680682451,
+    "event": {
+        "request": {
+            "url": "https://testnet-turret-alpha1.s3x.workers.dev/tx-fees",
+            "method": "GET",
+            "headers": {
+                "accept": "application/json",
+                "accept-encoding": "gzip",
+                "accept-language": "en-US,en;q=0.9",
+                "authorization": "REDACTED",
+                "cf-connecting-ip": "52.21.147.173",
+                "cf-ipcountry": "US",
+                "cf-ray": "6ca8d6687cd76fb3",
+                "cf-visitor": "{\"scheme\":\"https\"}",
+                "connection": "Keep-Alive",
+                "content-length": "0",
+                "dnt": "1",
+                "host": "testnet-turret-alpha1.s3x.workers.dev",
+                "referer": "https://app.swaggerhub.com/apis/StellarTurrets/prototype/1.0.0",
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"96\", \"Google Chrome\";v=\"96\"",
+                "sec-ch-ua-mobile": "?0",
+                "sec-ch-ua-platform": "\"Windows\"",
+                "sec-fetch-dest": "empty",
+                "sec-fetch-mode": "cors",
+                "sec-fetch-site": "same-origin",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36",
+                "x-amzn-trace-id": "Root=1-61da0f2a-5a029cca3ff590a1625f8176",
+                "x-forwarded-for": "72.241.33.170, 10.110.21.113",
+                "x-forwarded-port": "443",
+                "x-forwarded-proto": "https",
+                "x-real-ip": "52.21.147.173",
+                "x-swaggerhub-cookie": ""
+            },
+            "cf": {
+                "clientTcpRtt": 2,
+                "longitude": "-77.49030",
+                "latitude": "39.04690",
+                "tlsCipher": "AEAD-AES256-GCM-SHA384",
+                "continent": "NA",
+                "asn": 14618,
+                "clientAcceptEncoding": "gzip, deflate, br",
+                "country": "US",
+                "tlsClientAuth": {
+                    "certIssuerDNLegacy": "",
+                    "certIssuerSKI": "",
+                    "certSubjectDNRFC2253": "",
+                    "certSubjectDNLegacy": "",
+                    "certFingerprintSHA256": "",
+                    "certNotBefore": "",
+                    "certSKI": "",
+                    "certSerial": "",
+                    "certIssuerDN": "",
+                    "certVerified": "NONE",
+                    "certNotAfter": "",
+                    "certSubjectDN": "",
+                    "certPresented": "0",
+                    "certRevoked": "0",
+                    "certIssuerSerial": "",
+                    "certIssuerDNRFC2253": "",
+                    "certFingerprintSHA1": ""
+                },
+                "tlsExportedAuthenticator": {
+                    "clientFinished": "916399900b00115a5f2af4d1869007bf914e520f0882cc3381a33f293434b8fad4c757388f2ce6e0d087635ddfd875bf",
+                    "clientHandshake": "03f9e199bd320016b72186d1f21da5ccfc3ad8513a3db99c00281b7292cac713fb8b0d726a071f611fc39ba73c82e7a7",
+                    "serverHandshake": "d0a4ce115d1371f7897186506bf8add2ff015f43206113a6c78b67b3dadfc225d49fef7c05ffc7f85486d74515f7dcbd",
+                    "serverFinished": "a05abb5b0e40f1175fcaceee6e81397e09b337c3d27e245663a40ce0903f29f06c63ee3444cc1e7d9debfda7f5d5db1b"
+                },
+                "tlsVersion": "TLSv1.3",
+                "colo": "IAD",
+                "timezone": "America/New_York",
+                "city": "Ashburn",
+                "edgeRequestKeepAliveStatus": 1,
+                "requestPriority": "",
+                "httpProtocol": "HTTP/1.1",
+                "region": "Virginia",
+                "regionCode": "VA",
+                "asOrganization": "Amazon.com",
+                "metroCode": "511",
+                "postalCode": "20149"
+            }
+        }
+    }
+} {
+    "outcome": "ok",
+    "scriptName": null,
+    "exceptions": [],
+    "logs": [{
+        "message": ["handlescheduled metadata value is:"],
+        "level": "log",
+        "timestamp": 1641680704174
+    }, {
+        "message": ["metadata"],
+        "level": "log",
+        "timestamp": 1641680704174
+    }, {
+        "message": [{
+            "cron": "*/5 * * * *",
+            "scheduledTime": 1641680704000
+        }],
+        "level": "log",
+        "timestamp": 1641680704174
+    }, {
+        "message": ["env"],
+        "level": "log",
+        "timestamp": 1641680704174
+    }, {
+        "message": [{
+            "HORIZON_URL": "https://horizon-testnet.stellar.org",
+            "META": {},
+            "RUN_DIVISOR": "1000000",
+            "STELLAR_NETWORK": "TESTNET",
+            "TURRET_ADDRESS": "GAWFB46XRA6GKIYL6CDX7PPI5XIF5KDC44HZLQRSSHTTA2J2ELMQEEWC",
+            "TURRET_RUN_URL": "https://lp2sscctpi.execute-api.us-east-1.amazonaws.com",
+            "TURRET_SIGNER": "SDNQAFFYAJJEOMZ2VFACXPGI6Y454PIV7IFNWJ4KKHAC2BE3WWQNAEDJ",
+            "TX_FEES": {},
+            "TX_FUNCTIONS": {},
+            "UPLOAD_DIVISOR": "1000",
+            "XLM_FEE_MAX": "10",
+            "XLM_FEE_MIN": "1"
+        }],
+        "level": "log",
+        "timestamp": 1641680704174
+    }, {
+        "message": ["context"],
+        "level": "log",
+        "timestamp": 1641680704174
+    }, {
+        "message": [{}],
+        "level": "log",
+        "timestamp": 1641680704174
+    }, {
+        "message": ["handlescheduled at line 131"],
+        "level": "log",
+        "timestamp": 1641680704174
+    }, {
+        "message": ["flushsingleuseauthtoken input is"],
+        "level": "log",
+        "timestamp": 1641680704174
+    }, {
+        "message": [{
+            "HORIZON_URL": "https://horizon-testnet.stellar.org",
+            "META": {},
+            "RUN_DIVISOR": "1000000",
+            "STELLAR_NETWORK": "TESTNET",
+            "TURRET_ADDRESS": "GAWFB46XRA6GKIYL6CDX7PPI5XIF5KDC44HZLQRSSHTTA2J2ELMQEEWC",
+            "TURRET_RUN_URL": "https://lp2sscctpi.execute-api.us-east-1.amazonaws.com",
+            "TURRET_SIGNER": "SDNQAFFYAJJEOMZ2VFACXPGI6Y454PIV7IFNWJ4KKHAC2BE3WWQNAEDJ",
+            "TX_FEES": {},
+            "TX_FUNCTIONS": {},
+            "UPLOAD_DIVISOR": "1000",
+            "XLM_FEE_MAX": "10",
+            "XLM_FEE_MIN": "1"
+        }],
+        "level": "log",
+        "timestamp": 1641680704174
+    }, {
+        "message": ["fin"],
+        "level": "log",
+        "timestamp": 1641680704174
+    }],
+    "eventTimestamp": 1641680704174,
+    "event": {
+        "cron": "*/5 * * * *",
+        "scheduledTime": 1641680704000
+    }
+}
+
+
+
+method: 'GET',
+    localURLsOnly: false,
+    unsafeRequest: false,
+    body: null,
+    client: null,
+    reservedClient: null,
+    replacesClientId: '',
+    window: 'client',
+    keepalive: false,
+    serviceWorkers: 'all',
+    initiator: '',
+    destination: '',
+    priority: null,
+    origin: 'client',
+    policyContainer: 'client',
+    referrer: 'client',
+    referrerPolicy: '',
+    mode: 'cors',
+    useCORSPreflightFlag: false,
+    credentials: 'same-origin',
+    useCredentials: false,
+    cache: 'default',
+    redirect: 'manual',
+    integrity: '',
+    cryptoGraphicsNonceMetadata: '',
+    parserMetadata: '',
+    reloadNavigation: false,
+    historyNavigation: false,
+    userActivation: false,
+    taintedOrigin: false,
+    redirectCount: 0,
+    responseTainting: 'basic',
+    preventNoCacheCacheControlHeaderModification: false,
+    done: false,
+    timingAllowFailed: false,
+    headersList: HeadersList(26) [
+      'accept',
+      'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+      'accept-encoding',
+      'gzip, deflate',
+      'accept-language',
+      'en-US,en;q=0.9',
+      'cf-connecting-ip',
+      '192.168.1.214',
+      'cf-ipcountry',
+      'US',
+      'cf-ray',
+      '49249f403b15b5b3',
+      'cf-visitor',
+      '{"scheme":"https"}',
+      'dnt',
+      '1',
+      'host',
+      '192.168.1.214:8787',
+      'upgrade-insecure-requests',
+      '1',
+      'user-agent',
+      'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36',
+      'x-forwarded-proto',
+      'https',
+      'x-real-ip',
+      '192.168.1.214'
+    ],
+    urlList: [ [URL] ],
+    url: URL {
+      href: 'http://192.168.1.214:8787/',
+      origin: 'http://192.168.1.214:8787',
+      protocol: 'http:',
+      username: '',
+      password: '',
+      host: '192.168.1.214:8787',
+      hostname: '192.168.1.214',
+      port: '8787',
+      pathname: '/',
+      search: '',
+      searchParams: URLSearchParams {},
+      hash: ''
+    }
+  },
+  [Symbol(signal)]: AbortSignal { aborted: false },
+  [Symbol(headers)]: HeadersList(26) [
+    'accept',
+    'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+    'accept-encoding',
+    'gzip, deflate',
+    'accept-language',
+    'en-US,en;q=0.9',
+    'cf-connecting-ip',
+    '192.168.1.214',
+    'cf-ipcountry',
+    'US',
+    'cf-ray',
+    '49249f403b15b5b3',
+    'cf-visitor',
+    '{"scheme":"https"}',
+    'dnt',
+    '1',
+    'host',
+    '192.168.1.214:8787',
+    'upgrade-insecure-requests',
+    '1',
+    'user-agent',
+    'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36',
+    'x-forwarded-proto',
+    'https',
+    'x-real-ip',
+    '192.168.1.214'
+  ]
+{
+    "outcome": "ok",
+    "scriptName": null,
+    "exceptions": [],
+    "logs": [{
+        "message": ["START ENV"],
+        "level": "log",
+        "timestamp": 1641716447965
+    }, {
+        "message": [{
+            "AUTH_REQUIRED": "false",
+            "HORIZON_URL": "https://horizon-testnet.stellar.org",
+            "META": {},
+            "RUN_DIVISOR": "1000000",
+            "SLS_TIMEOUT": "6000",
+            "STELLAR_NETWORK": "TESTNET",
+            "TURRET_ADDRESS": "GAWFB46XRA6GKIYL6CDX7PPI5XIF5KDC44HZLQRSSHTTA2J2ELMQEEWC",
+            "TURRET_RUN_URL": "https://lp2sscctpi.execute-api.us-east-1.amazonaws.com",
+            "TURRET_SIGNER": "SDNQAFFYAJJEOMZ2VFACXPGI6Y454PIV7IFNWJ4KKHAC2BE3WWQNAEDJ",
+            "TX_FEES": {},
+            "TX_FUNCTIONS": {},
+            "UPLOAD_DIVISOR": "1000",
+            "XLM_FEE_MAX": "10",
+            "XLM_FEE_MIN": "1"
+        }],
+        "level": "log",
+        "timestamp": 1641716447965
+    }, {
+        "message": ["END ENV, start request line 55 index.js"],
+        "level": "log",
+        "timestamp": 1641716447965
+    }, {
+        "message": [{
+            "cf": {
+                "longitude": "-83.64260",
+                "latitude": "41.70520",
+                "tlsCipher": "AEAD-AES128-GCM-SHA256",
+                "continent": "NA",
+                "asn": 13490,
+                "clientAcceptEncoding": "gzip, deflate, br",
+                "country": "US",
+                "tlsClientAuth": {
+                    "certIssuerDNLegacy": "",
+                    "certIssuerSKI": "",
+                    "certSubjectDNRFC2253": "",
+                    "certSubjectDNLegacy": "",
+                    "certFingerprintSHA256": "",
+                    "certNotBefore": "",
+                    "certSKI": "",
+                    "certSerial": "",
+                    "certIssuerDN": "",
+                    "certVerified": "NONE",
+                    "certNotAfter": "",
+                    "certSubjectDN": "",
+                    "certPresented": "0",
+                    "certRevoked": "0",
+                    "certIssuerSerial": "",
+                    "certIssuerDNRFC2253": "",
+                    "certFingerprintSHA1": ""
+                },
+                "tlsExportedAuthenticator": {
+                    "clientFinished": "873a3425e6a653b91169dff2990581477f15596fa14b9f6248304a6032234dc4",
+                    "clientHandshake": "2249af511d82ff772b4e29df415acba728d3d40c2654b5b2e6f2be12ce637fa3",
+                    "serverHandshake": "0d703ebc35bd6e4b68d63361a4da1f59551fccbf07d347f179574abfab398cfe",
+                    "serverFinished": "e5671efd87b9f16f942079dbb6a9d8f6a2290b92c2ce2dbbfcf38414b6e3fe30"
+                },
+                "tlsVersion": "TLSv1.3",
+                "colo": "ORD",
+                "timezone": "America/New_York",
+                "city": "Toledo",
+                "edgeRequestKeepAliveStatus": 1,
+                "requestPriority": "",
+                "httpProtocol": "HTTP/3",
+                "region": "Ohio",
+                "regionCode": "OH",
+                "asOrganization": "Buckeye Cablevision",
+                "metroCode": "547",
+                "postalCode": "43623"
+            },
+            "signal": {
+                "aborted": false
+            },
+            "fetcher": {},
+            "redirect": "manual",
+            "headers": {},
+            "url": "https://testnet-turret-alpha1.s3x.workers.dev/",
+            "method": "GET",
+            "bodyUsed": false,
+            "body": null
+        }],
+        "level": "log",
+        "timestamp": 1641716447965
+    }, {
+        "message": ["END REQUEST"],
+        "level": "log",
+        "timestamp": 1641716447965
+    }, {
+        "message": [{}],
+        "level": "log",
+        "timestamp": 1641716447965
+    }, {
+        "message": ["END CTX"],
+        "level": "log",
+        "timestamp": 1641716447965
+    }, {
+        "message": ["The router match line 92 on index"],
+        "level": "log",
+        "timestamp": 1641716447965
+    }, {
+        "message": [{
+            "method": "GET",
+            "path": "/",
+            "keys": [],
+            "options": {},
+            "regexp": {},
+            "matches": ["/"],
+            "params": {}
+        }],
+        "level": "log",
+        "timestamp": 1641716447965
+    }, {
+        "message": ["The router match end"],
+        "level": "log",
+        "timestamp": 1641716447965
+    }, {
+        "message": [{
+            "AUTH_REQUIRED": "false",
+            "HORIZON_URL": "https://horizon-testnet.stellar.org",
+            "META": {},
+            "RUN_DIVISOR": "1000000",
+            "SLS_TIMEOUT": "6000",
+            "STELLAR_NETWORK": "TESTNET",
+            "TURRET_ADDRESS": "GAWFB46XRA6GKIYL6CDX7PPI5XIF5KDC44HZLQRSSHTTA2J2ELMQEEWC",
+            "TURRET_RUN_URL": "https://lp2sscctpi.execute-api.us-east-1.amazonaws.com",
+            "TURRET_SIGNER": "SDNQAFFYAJJEOMZ2VFACXPGI6Y454PIV7IFNWJ4KKHAC2BE3WWQNAEDJ",
+            "TX_FEES": {},
+            "TX_FUNCTIONS": {},
+            "UPLOAD_DIVISOR": "1000",
+            "XLM_FEE_MAX": "10",
+            "XLM_FEE_MIN": "1"
+        }],
+        "level": "log",
+        "timestamp": 1641716447965
+    }, {
+        "message": ["details"],
+        "level": "log",
+        "timestamp": 1641716447965
+    }, {
+        "message": [{}],
+        "level": "log",
+        "timestamp": 1641716447965
+    }, {
+        "message": [
+            [{
+                "turret": "GAWFB46XRA6GKIYL6CDX7PPI5XIF5KDC44HZLQRSSHTTA2J2ELMQEEWC",
+                "network": "TESTNET",
+                "horizon": "https://horizon-testnet.stellar.org",
+                "runner": "https://lp2sscctpi.execute-api.us-east-1.amazonaws.com",
+                "version": "v0.0.1-8157d4b63f1ebb88b865a0604efa645d5acdda9a",
+                "fee": {
+                    "min": "1",
+                    "max": "10"
+                },
+                "divisor": {
+                    "upload": "1000",
+                    "run": "1000000"
+                }
+            }, {
+                "headers": {
+                    "Cache-Control": "public, max-age=300"
+                }
+            }]
+        ],
+        "level": "log",
+        "timestamp": 1641716447965
+    }, {
+        "message": ["line 39 of details.js"],
+        "level": "log",
+        "timestamp": 1641716447965
+    }, {
+        "message": ["The router response on line 103"],
+        "level": "log",
+        "timestamp": 1641716447965
+    }, {
+        "message": [{
+            "webSocket": null,
+            "url": "",
+            "redirected": false,
+            "ok": true,
+            "headers": {},
+            "statusText": "OK",
+            "status": 200,
+            "bodyUsed": false,
+            "body": {
+                "locked": false
+            }
+        }],
+        "level": "log",
+        "timestamp": 1641716447965
+    }, {
+        "message": ["continues to the return"],
+        "level": "log",
+        "timestamp": 1641716447965
+    }, {
+        "message": ["heres the response dummy"],
+        "level": "log",
+        "timestamp": 1641716447965
+    }],
+    "eventTimestamp": 1641716447965,
+    "event": {
+        "request": {
+            "url": "https://testnet-turret-alpha1.s3x.workers.dev/",
+            "method": "GET",
+            "headers": {
+                "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
+                "accept-encoding": "gzip",
+                "accept-language": "en-US,en;q=0.9",
+                "cf-connecting-ip": "72.241.33.170",
+                "cf-ipcountry": "US",
+                "cf-ray": "6cac3f976aa68717",
+                "cf-visitor": "{\"scheme\":\"https\"}",
+                "connection": "Keep-Alive",
+                "dnt": "1",
+                "host": "testnet-turret-alpha1.s3x.workers.dev",
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"96\", \"Google Chrome\";v=\"96\"",
+                "sec-ch-ua-mobile": "?0",
+                "sec-ch-ua-platform": "\"Windows\"",
+                "sec-fetch-dest": "document",
+                "sec-fetch-mode": "navigate",
+                "sec-fetch-site": "none",
+                "sec-fetch-user": "?1",
+                "upgrade-insecure-requests": "1",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36",
+                "x-forwarded-proto": "https",
+                "x-real-ip": "72.241.33.170"
+            },
+            "cf": {
+                "longitude": "-83.64260",
+                "latitude": "41.70520",
+                "tlsCipher": "AEAD-AES128-GCM-SHA256",
+                "continent": "NA",
+                "asn": 13490,
+                "clientAcceptEncoding": "gzip, deflate, br",
+                "country": "US",
+                "tlsClientAuth": {
+                    "certIssuerDNLegacy": "",
+                    "certIssuerSKI": "",
+                    "certSubjectDNRFC2253": "",
+                    "certSubjectDNLegacy": "",
+                    "certFingerprintSHA256": "",
+                    "certNotBefore": "",
+                    "certSKI": "",
+                    "certSerial": "",
+                    "certIssuerDN": "",
+                    "certVerified": "NONE",
+                    "certNotAfter": "",
+                    "certSubjectDN": "",
+                    "certPresented": "0",
+                    "certRevoked": "0",
+                    "certIssuerSerial": "",
+                    "certIssuerDNRFC2253": "",
+                    "certFingerprintSHA1": ""
+                },
+                "tlsExportedAuthenticator": {
+                    "clientFinished": "873a3425e6a653b91169dff2990581477f15596fa14b9f6248304a6032234dc4",
+                    "clientHandshake": "2249af511d82ff772b4e29df415acba728d3d40c2654b5b2e6f2be12ce637fa3",
+                    "serverHandshake": "0d703ebc35bd6e4b68d63361a4da1f59551fccbf07d347f179574abfab398cfe",
+                    "serverFinished": "e5671efd87b9f16f942079dbb6a9d8f6a2290b92c2ce2dbbfcf38414b6e3fe30"
+                },
+                "tlsVersion": "TLSv1.3",
+                "colo": "ORD",
+                "timezone": "America/New_York",
+                "city": "Toledo",
+                "edgeRequestKeepAliveStatus": 1,
+                "requestPriority": "",
+                "httpProtocol": "HTTP/3",
+                "region": "Ohio",
+                "regionCode": "OH",
+                "asOrganization": "Buckeye Cablevision",
+                "metroCode": "547",
+                "postalCode": "43623"
+            }
+        }
+    }
+} {
+    "outcome": "ok",
+    "scriptName": null,
+    "exceptions": [],
+    "logs": [{
+        "message": ["START ENV"],
+        "level": "log",
+        "timestamp": 1641716448045
+    }, {
+        "message": [{
+            "AUTH_REQUIRED": "false",
+            "HORIZON_URL": "https://horizon-testnet.stellar.org",
+            "META": {},
+            "RUN_DIVISOR": "1000000",
+            "SLS_TIMEOUT": "6000",
+            "STELLAR_NETWORK": "TESTNET",
+            "TURRET_ADDRESS": "GAWFB46XRA6GKIYL6CDX7PPI5XIF5KDC44HZLQRSSHTTA2J2ELMQEEWC",
+            "TURRET_RUN_URL": "https://lp2sscctpi.execute-api.us-east-1.amazonaws.com",
+            "TURRET_SIGNER": "SDNQAFFYAJJEOMZ2VFACXPGI6Y454PIV7IFNWJ4KKHAC2BE3WWQNAEDJ",
+            "TX_FEES": {},
+            "TX_FUNCTIONS": {},
+            "UPLOAD_DIVISOR": "1000",
+            "XLM_FEE_MAX": "10",
+            "XLM_FEE_MIN": "1"
+        }],
+        "level": "log",
+        "timestamp": 1641716448045
+    }, {
+        "message": ["END ENV, start request line 55 index.js"],
+        "level": "log",
+        "timestamp": 1641716448045
+    }, {
+        "message": [{
+            "cf": {
+                "longitude": "-83.64260",
+                "latitude": "41.70520",
+                "tlsCipher": "AEAD-AES128-GCM-SHA256",
+                "continent": "NA",
+                "asn": 13490,
+                "clientAcceptEncoding": "gzip, deflate, br",
+                "country": "US",
+                "tlsClientAuth": {
+                    "certIssuerDNLegacy": "",
+                    "certIssuerSKI": "",
+                    "certSubjectDNRFC2253": "",
+                    "certSubjectDNLegacy": "",
+                    "certFingerprintSHA256": "",
+                    "certNotBefore": "",
+                    "certSKI": "",
+                    "certSerial": "",
+                    "certIssuerDN": "",
+                    "certVerified": "NONE",
+                    "certNotAfter": "",
+                    "certSubjectDN": "",
+                    "certPresented": "0",
+                    "certRevoked": "0",
+                    "certIssuerSerial": "",
+                    "certIssuerDNRFC2253": "",
+                    "certFingerprintSHA1": ""
+                },
+                "tlsExportedAuthenticator": {
+                    "clientFinished": "873a3425e6a653b91169dff2990581477f15596fa14b9f6248304a6032234dc4",
+                    "clientHandshake": "2249af511d82ff772b4e29df415acba728d3d40c2654b5b2e6f2be12ce637fa3",
+                    "serverHandshake": "0d703ebc35bd6e4b68d63361a4da1f59551fccbf07d347f179574abfab398cfe",
+                    "serverFinished": "e5671efd87b9f16f942079dbb6a9d8f6a2290b92c2ce2dbbfcf38414b6e3fe30"
+                },
+                "tlsVersion": "TLSv1.3",
+                "colo": "ORD",
+                "timezone": "America/New_York",
+                "city": "Toledo",
+                "edgeRequestKeepAliveStatus": 1,
+                "requestPriority": "",
+                "httpProtocol": "HTTP/3",
+                "region": "Ohio",
+                "regionCode": "OH",
+                "asOrganization": "Buckeye Cablevision",
+                "metroCode": "547",
+                "postalCode": "43623"
+            },
+            "signal": {
+                "aborted": false
+            },
+            "fetcher": {},
+            "redirect": "manual",
+            "headers": {},
+            "url": "https://testnet-turret-alpha1.s3x.workers.dev/robots.txt",
+            "method": "GET",
+            "bodyUsed": false,
+            "body": null
+        }],
+        "level": "log",
+        "timestamp": 1641716448045
+    }, {
+        "message": ["END REQUEST"],
+        "level": "log",
+        "timestamp": 1641716448045
+    }, {
+        "message": [{}],
+        "level": "log",
+        "timestamp": 1641716448045
+    }, {
+        "message": ["END CTX"],
+        "level": "log",
+        "timestamp": 1641716448045
+    }, {
+        "message": ["The router match line 92 on index"],
+        "level": "log",
+        "timestamp": 1641716448045
+    }, {
+        "message": [null],
+        "level": "log",
+        "timestamp": 1641716448045
+    }, {
+        "message": ["The router match end"],
+        "level": "log",
+        "timestamp": 1641716448045
+    }],
+    "eventTimestamp": 1641716448045,
+    "event": {
+        "request": {
+            "url": "https://testnet-turret-alpha1.s3x.workers.dev/robots.txt",
+            "method": "GET",
+            "headers": {
+                "accept": "*/*",
+                "accept-encoding": "gzip",
+                "accept-language": "en-US,en;q=0.9",
+                "cf-connecting-ip": "72.241.33.170",
+                "cf-ipcountry": "US",
+                "cf-ray": "6cac3f984bbc8717",
+                "cf-visitor": "{\"scheme\":\"https\"}",
+                "connection": "Keep-Alive",
+                "dnt": "1",
+                "host": "testnet-turret-alpha1.s3x.workers.dev",
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"96\", \"Google Chrome\";v=\"96\"",
+                "sec-ch-ua-mobile": "?0",
+                "sec-ch-ua-platform": "\"Windows\"",
+                "sec-fetch-dest": "empty",
+                "sec-fetch-mode": "no-cors",
+                "sec-fetch-site": "none",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36",
+                "x-forwarded-proto": "https",
+                "x-real-ip": "72.241.33.170"
+            },
+            "cf": {
+                "longitude": "-83.64260",
+                "latitude": "41.70520",
+                "tlsCipher": "AEAD-AES128-GCM-SHA256",
+                "continent": "NA",
+                "asn": 13490,
+                "clientAcceptEncoding": "gzip, deflate, br",
+                "country": "US",
+                "tlsClientAuth": {
+                    "certIssuerDNLegacy": "",
+                    "certIssuerSKI": "",
+                    "certSubjectDNRFC2253": "",
+                    "certSubjectDNLegacy": "",
+                    "certFingerprintSHA256": "",
+                    "certNotBefore": "",
+                    "certSKI": "",
+                    "certSerial": "",
+                    "certIssuerDN": "",
+                    "certVerified": "NONE",
+                    "certNotAfter": "",
+                    "certSubjectDN": "",
+                    "certPresented": "0",
+                    "certRevoked": "0",
+                    "certIssuerSerial": "",
+                    "certIssuerDNRFC2253": "",
+                    "certFingerprintSHA1": ""
+                },
+                "tlsExportedAuthenticator": {
+                    "clientFinished": "873a3425e6a653b91169dff2990581477f15596fa14b9f6248304a6032234dc4",
+                    "clientHandshake": "2249af511d82ff772b4e29df415acba728d3d40c2654b5b2e6f2be12ce637fa3",
+                    "serverHandshake": "0d703ebc35bd6e4b68d63361a4da1f59551fccbf07d347f179574abfab398cfe",
+                    "serverFinished": "e5671efd87b9f16f942079dbb6a9d8f6a2290b92c2ce2dbbfcf38414b6e3fe30"
+                },
+                "tlsVersion": "TLSv1.3",
+                "colo": "ORD",
+                "timezone": "America/New_York",
+                "city": "Toledo",
+                "edgeRequestKeepAliveStatus": 1,
+                "requestPriority": "",
+                "httpProtocol": "HTTP/3",
+                "region": "Ohio",
+                "regionCode": "OH",
+                "asOrganization": "Buckeye Cablevision",
+                "metroCode": "547",
+                "postalCode": "43623"
+            }
+        }
+    }
+} {
+    "outcome": "ok",
+    "scriptName": null,
+    "exceptions": [],
+    "logs": [{
+        "message": ["START ENV"],
+        "level": "log",
+        "timestamp": 1641716448106
+    }, {
+        "message": [{
+            "AUTH_REQUIRED": "false",
+            "HORIZON_URL": "https://horizon-testnet.stellar.org",
+            "META": {},
+            "RUN_DIVISOR": "1000000",
+            "SLS_TIMEOUT": "6000",
+            "STELLAR_NETWORK": "TESTNET",
+            "TURRET_ADDRESS": "GAWFB46XRA6GKIYL6CDX7PPI5XIF5KDC44HZLQRSSHTTA2J2ELMQEEWC",
+            "TURRET_RUN_URL": "https://lp2sscctpi.execute-api.us-east-1.amazonaws.com",
+            "TURRET_SIGNER": "SDNQAFFYAJJEOMZ2VFACXPGI6Y454PIV7IFNWJ4KKHAC2BE3WWQNAEDJ",
+            "TX_FEES": {},
+            "TX_FUNCTIONS": {},
+            "UPLOAD_DIVISOR": "1000",
+            "XLM_FEE_MAX": "10",
+            "XLM_FEE_MIN": "1"
+        }],
+        "level": "log",
+        "timestamp": 1641716448106
+    }, {
+        "message": ["END ENV, start request line 55 index.js"],
+        "level": "log",
+        "timestamp": 1641716448106
+    }, {
+        "message": [{
+            "cf": {
+                "longitude": "-83.64260",
+                "latitude": "41.70520",
+                "tlsCipher": "AEAD-AES128-GCM-SHA256",
+                "continent": "NA",
+                "asn": 13490,
+                "clientAcceptEncoding": "gzip, deflate, br",
+                "country": "US",
+                "tlsClientAuth": {
+                    "certIssuerDNLegacy": "",
+                    "certIssuerSKI": "",
+                    "certSubjectDNRFC2253": "",
+                    "certSubjectDNLegacy": "",
+                    "certFingerprintSHA256": "",
+                    "certNotBefore": "",
+                    "certSKI": "",
+                    "certSerial": "",
+                    "certIssuerDN": "",
+                    "certVerified": "NONE",
+                    "certNotAfter": "",
+                    "certSubjectDN": "",
+                    "certPresented": "0",
+                    "certRevoked": "0",
+                    "certIssuerSerial": "",
+                    "certIssuerDNRFC2253": "",
+                    "certFingerprintSHA1": ""
+                },
+                "tlsExportedAuthenticator": {
+                    "clientFinished": "873a3425e6a653b91169dff2990581477f15596fa14b9f6248304a6032234dc4",
+                    "clientHandshake": "2249af511d82ff772b4e29df415acba728d3d40c2654b5b2e6f2be12ce637fa3",
+                    "serverHandshake": "0d703ebc35bd6e4b68d63361a4da1f59551fccbf07d347f179574abfab398cfe",
+                    "serverFinished": "e5671efd87b9f16f942079dbb6a9d8f6a2290b92c2ce2dbbfcf38414b6e3fe30"
+                },
+                "tlsVersion": "TLSv1.3",
+                "colo": "ORD",
+                "timezone": "America/New_York",
+                "city": "Toledo",
+                "edgeRequestKeepAliveStatus": 1,
+                "requestPriority": "",
+                "httpProtocol": "HTTP/3",
+                "region": "Ohio",
+                "regionCode": "OH",
+                "asOrganization": "Buckeye Cablevision",
+                "metroCode": "547",
+                "postalCode": "43623"
+            },
+            "signal": {
+                "aborted": false
+            },
+            "fetcher": {},
+            "redirect": "manual",
+            "headers": {},
+            "url": "https://testnet-turret-alpha1.s3x.workers.dev/robots.txt",
+            "method": "GET",
+            "bodyUsed": false,
+            "body": null
+        }],
+        "level": "log",
+        "timestamp": 1641716448106
+    }, {
+        "message": ["END REQUEST"],
+        "level": "log",
+        "timestamp": 1641716448106
+    }, {
+        "message": [{}],
+        "level": "log",
+        "timestamp": 1641716448106
+    }, {
+        "message": ["END CTX"],
+        "level": "log",
+        "timestamp": 1641716448106
+    }, {
+        "message": ["The router match line 92 on index"],
+        "level": "log",
+        "timestamp": 1641716448106
+    }, {
+        "message": [null],
+        "level": "log",
+        "timestamp": 1641716448106
+    }, {
+        "message": ["The router match end"],
+        "level": "log",
+        "timestamp": 1641716448106
+    }],
+    "eventTimestamp": 1641716448106,
+    "event": {
+        "request": {
+            "url": "https://testnet-turret-alpha1.s3x.workers.dev/robots.txt",
+            "method": "GET",
+            "headers": {
+                "accept": "*/*",
+                "accept-encoding": "gzip",
+                "accept-language": "en-US,en;q=0.9",
+                "cf-connecting-ip": "72.241.33.170",
+                "cf-ipcountry": "US",
+                "cf-ray": "6cac3f98ac518717",
+                "cf-visitor": "{\"scheme\":\"https\"}",
+                "connection": "Keep-Alive",
+                "dnt": "1",
+                "host": "testnet-turret-alpha1.s3x.workers.dev",
+                "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"96\", \"Google Chrome\";v=\"96\"",
+                "sec-ch-ua-mobile": "?0",
+                "sec-ch-ua-platform": "\"Windows\"",
+                "sec-fetch-dest": "empty",
+                "sec-fetch-mode": "no-cors",
+                "sec-fetch-site": "none",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36",
+                "x-forwarded-proto": "https",
+                "x-real-ip": "72.241.33.170"
+            },
+            "cf": {
+                "longitude": "-83.64260",
+                "latitude": "41.70520",
+                "tlsCipher": "AEAD-AES128-GCM-SHA256",
+                "continent": "NA",
+                "asn": 13490,
+                "clientAcceptEncoding": "gzip, deflate, br",
+                "country": "US",
+                "tlsClientAuth": {
+                    "certIssuerDNLegacy": "",
+                    "certIssuerSKI": "",
+                    "certSubjectDNRFC2253": "",
+                    "certSubjectDNLegacy": "",
+                    "certFingerprintSHA256": "",
+                    "certNotBefore": "",
+                    "certSKI": "",
+                    "certSerial": "",
+                    "certIssuerDN": "",
+                    "certVerified": "NONE",
+                    "certNotAfter": "",
+                    "certSubjectDN": "",
+                    "certPresented": "0",
+                    "certRevoked": "0",
+                    "certIssuerSerial": "",
+                    "certIssuerDNRFC2253": "",
+                    "certFingerprintSHA1": ""
+                },
+                "tlsExportedAuthenticator": {
+                    "clientFinished": "873a3425e6a653b91169dff2990581477f15596fa14b9f6248304a6032234dc4",
+                    "clientHandshake": "2249af511d82ff772b4e29df415acba728d3d40c2654b5b2e6f2be12ce637fa3",
+                    "serverHandshake": "0d703ebc35bd6e4b68d63361a4da1f59551fccbf07d347f179574abfab398cfe",
+                    "serverFinished": "e5671efd87b9f16f942079dbb6a9d8f6a2290b92c2ce2dbbfcf38414b6e3fe30"
+                },
+                "tlsVersion": "TLSv1.3",
+                "colo": "ORD",
+                "timezone": "America/New_York",
+                "city": "Toledo",
+                "edgeRequestKeepAliveStatus": 1,
+                "requestPriority": "",
+                "httpProtocol": "HTTP/3",
+                "region": "Ohio",
+                "regionCode": "OH",
+                "asOrganization": "Buckeye Cablevision",
+                "metroCode": "547",
+                "postalCode": "43623"
+            }
+        }
+    }
+}
+
+
+  Tip
+Miniflare will always set the global variable MINIFLARE to true in its sandbox. You can use this as an escape hatch to customise behaviour during local development:
+
+if (globalThis.MINIFLARE) {
+  // Do something when running in Miniflare
+} else {
+  // Do something else when running in the real Workers environment
+}
