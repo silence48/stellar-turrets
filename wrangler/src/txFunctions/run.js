@@ -45,27 +45,45 @@ export default async ({ request, params, env }) => {
     && !authedContracts.some(hash => hash === txFunctionHash)
   ) throw { status: 403, message: `Not authorized to run contract with hash ${txFunctionHash}` }
 
-  const txFeesId = TX_FEES.idFromName(authedPublicKey)
-  const txFeesStub = TX_FEES.get(txFeesId)
+  const txFeesId = TX_FEES.idFromName(authedPublicKey);
+  const txFeesStub = TX_FEES.get(txFeesId);
 
   if (singleUse) { // If auth token is single use check if it's already been used
     await txFeesStub.fetch(`/${authedHash}`, {method: 'POST'}).then(handleResponse)
     await META.put(`suat:${authedPublicKey}:${authedHash}`, Buffer.alloc(0), {metadata: exp})
   }
 
-  const feeMetadata = await txFeesStub.fetch('/').then(handleResponse)
-  
+  const reserveMetadata = await txFeesStub.fetch("/").then(handleResponse);
   let feeBalance
-  
-  if (feeMetadata) {
-    feeBalance = new BigNumber(feeMetadata.balance)
+  const reserveFee = new BigNumber(SLS_TIMEOUT).dividedBy(RUN_DIVISOR).toFixed(7)
 
-    if (feeBalance.isLessThanOrEqualTo(0)) {
-      throw { status: 402, message: `Turret fees have been spent for account ${authedPublicKey}` }
+  if (reserveMetadata) {
+    feeBalance = new BigNumber(reserveMetadata.balance)
+    
+    if (feeBalance.isLessThanOrEqualTo( reserveFee )) {
+      throw {
+        status: 402,
+        message: `You must have a minimum balance of ${reserveFee}.  Current FeeBalance of ${authedPublicKey} is ${feeBalance}`,
+      }
     }
+    
+    const { balance: reserve } = await txFeesStub.fetch("/", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        minus: reserveFee,
+      }),
+    }).then(handleResponse);
+
+    console.log(`contract ran by authid: ${authedPublicKey}. 
+                   holding in reserve: ${reserveFee} XLM; 
+                   current bal is ${reserve}`)
+
   } else {
     throw { status: 402, message: `No payment was found for account ${authedPublicKey}` }
-  }
+  }   
 
   let { 
     value: turretAuthData, 
@@ -110,14 +128,14 @@ export default async ({ request, params, env }) => {
     watch.mark('Ran txFunction')
 
     const cost = new BigNumber(watch.getTotalTime()).dividedBy(RUN_DIVISOR).toFixed(7)
-
+    const settleFee = new BigNumber(reserveFee - cost).toFixed(7)
     const { balance: feeBalanceRemaining } = await txFeesStub.fetch('/', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
       },
       body: JSON.stringify({
-        minus: cost
+        plus: settleFee
       })
     }).then(handleResponse)
 
