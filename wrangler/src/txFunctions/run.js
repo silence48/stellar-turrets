@@ -14,7 +14,8 @@ export default async ({ request, params, env }) => {
     TURRET_SIGNER, 
     STELLAR_NETWORK, 
     HORIZON_URL, 
-    RUN_DIVISOR 
+    RUN_DIVISOR,
+    SLS_TIMEOUT
   } = env
   const { txFunctionHash } = params
 
