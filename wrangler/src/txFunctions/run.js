@@ -18,7 +18,7 @@ export default async ({ request, params, env }) => {
     SLS_TIMEOUT
   } = env
   const { txFunctionHash } = params
-
+  
   const { value, metadata } = await TX_FUNCTIONS.getWithMetadata(txFunctionHash, 'arrayBuffer')
 
   if (!value)
@@ -172,12 +172,10 @@ export default async ({ request, params, env }) => {
       stopwatch: watch,
     })
   }
-
+try{
   const transaction = new Transaction(xdr, Networks[STELLAR_NETWORK])
-
   const txFunctionSignerKeypair = Keypair.fromSecret(txFunctionSignerSecret)
   const txFunctionSignature = txFunctionSignerKeypair.sign(transaction.hash()).toString('base64')
-
   return response.json({
     xdr,
     signer: txFunctionSignerPublicKey,
@@ -188,4 +186,7 @@ export default async ({ request, params, env }) => {
   }, {
     stopwatch: watch,
   })
+} catch (e){
+  throw (`Unable to create valid transaction from XDR, ${e}`)
+}  
 }
